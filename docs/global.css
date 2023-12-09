@@ -1,31 +1,22 @@
 @font-face {
-  font-family: "KoHo Bold";
-  src: url("./assets/fonts/KoHo-Bold.ttf");
+  font-family: "Cairo Bold";
+  src: url("./assets/fonts/Cairo-Bold.ttf");
 }
 
 @font-face {
-  font-family: "KoHo";
-  src: url("./assets/fonts/KoHo-Regular.ttf");
+  font-family: "Cairo Regular";
+  src: url("./assets/fonts/Cairo-Regular.ttf");
 }
 
 :root {
   --color-background: #222;
   --color-text: var(--color-white);
-  --color-white: #fff;
-  --color-red: #fa5555;
-  --color-pink: #FF8989;
-  --color-pink-secondary: #FFE4E1;
-  --font-body: "KoHo";
-  --font-body-bold: "KoHo Bold";
-  --animation-recording: flickerAnimation 1s infinite;
+  --color-white: #f1f1f1;
+  --color-primary: #669882;
+  --color-secondary: #486D54;
+  --font-body: "Cairo Regular";
+  --font-body-bold: "Cairo Bold";
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --color-text: #545454;
-    --color-background: #fff;
-  }
-} */
 
 * {
   box-sizing: border-box;
@@ -37,7 +28,7 @@ html, body {
 	position: relative;
 	width: 100%;
   overflow-x: hidden;
-  line-height: 1.2;
+  line-height: 1.3;
   font-size: 8px;
 }
 
@@ -51,6 +42,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body-bold);
   font-weight: 500;
+  margin-bottom: 3rem;
 }
 
 h1 {
@@ -59,12 +51,12 @@ h1 {
 
 h2 {
   font-size: 40px;
-  text-shadow: -1px 2px var(--color-pink);
+  text-shadow: -1px 2px var(--color-secondary);
 }
 
 h3 {
   font-size: 30px;
-  text-shadow: -1px 2px var(--color-pink);
+  text-shadow: -1px 2px var(--color-secondary);
 }
 
 h4 {
@@ -79,7 +71,7 @@ h6 {
   font-size: 18px;
 }
 
-p {
+body {
   font-size: 26px;
   font-family: var(--font-body);
 }
@@ -88,27 +80,33 @@ p.bold {
   font-family: var(--font-body-bold);
 }
 
-a { 
-  font-family: var(--font-body-bold);
-  color: var(--color-pink-secondary);
-  text-decoration-color: var(--color-pink);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 26px;
-}
-a:hover {
-  color: var(--color-pink);
-  text-decoration-color: var(--color-pink);
+p {
+  margin-bottom: 3rem;
 }
 
-@keyframes flickerAnimation {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+a { 
+  font-family: var(--font-body-bold);
+  color: var(--color-primary);
+  text-decoration-color: var(--color-secondary);
+  cursor: pointer;
+  display: inline;
+  font-size: 26px;
+}
+
+a:hover {
+  color: var(--color-secondary);
+  text-decoration-color: var(--color-secondary);
+}
+
+ul {
+  padding-left: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0!important;
 }
