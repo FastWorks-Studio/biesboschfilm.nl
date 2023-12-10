@@ -70,6 +70,8 @@
         </li>
       </ul>
 
+      <p>Samen zijn wij <em>FastWorks</em>.</p>
+
       <figure class="photo">
         <img src="assets/images/biesbosch-jacques.jpg" alt="Jacques wordt gefilmd." />
         <figcaption>Gepensioneerd boswachter Jacques van der Neut deelt zijn visie over de Biesbosch.</figcaption>
