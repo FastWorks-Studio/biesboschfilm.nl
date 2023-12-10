@@ -291,7 +291,7 @@
     object-fit: cover;
     opacity: 0.2;
     z-index: -10;
-    filter: blur(3rem);
+    filter: blur(1rem);
   }
 
   h2 {
