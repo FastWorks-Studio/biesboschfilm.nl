@@ -5,7 +5,7 @@
 
   $: innerWidth = 0;
   $: width = Math.min(
-    Math.max(screen.width, screen.height) * 0.5,
+    Math.max(window.innerWidth, window.innerHeight) * 0.5,
     Math.max(innerWidth, 300)
   );
 
