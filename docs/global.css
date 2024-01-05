@@ -110,3 +110,10 @@ li {
 .no-margin-bottom {
   margin-bottom: 0!important;
 }
+
+#logo {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  margin-bottom: 6rem;
+}

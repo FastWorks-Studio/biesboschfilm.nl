@@ -7,7 +7,11 @@
   function onClick() {
     if (typeof click === "string") {
       const link = click as string;
-      window.open(link);
+      if (link.startsWith('http://') || link.startsWith('https://')) {
+        window.open(link);
+      } else {
+        window.location.href = link;
+      }
     } else {
       const action = click as () => void;
       action();

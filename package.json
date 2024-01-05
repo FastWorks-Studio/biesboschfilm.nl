@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c; cp -R public/** docs",
+    "build": "cp public/index.html public/404.html; rollup -c; cp -R public/** docs",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear",
-    "docs": "sirv public --no-clear",
+    "start": "sirv public --single --no-clear",
+    "docs": "sirv public --single --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@tsconfig/svelte": "^2.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
@@ -20,10 +22,8 @@
     "svelte": "^4.0.0",
     "svelte-check": "^3.4.3",
     "svelte-preprocess": "^5.0.3",
-    "@rollup/plugin-typescript": "^8.0.0",
-    "typescript": "^5.0.0",
     "tslib": "^2.0.0",
-    "@tsconfig/svelte": "^2.0.0"
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "sirv-cli": "^2.0.0"
