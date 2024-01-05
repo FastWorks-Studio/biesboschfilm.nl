@@ -266,10 +266,6 @@
     font-style: italic;
   }
 
-  .intro {
-    padding-bottom: 6rem;
-  }
-
   .contact-buttons {
     display: flex;
     gap: 2rem;

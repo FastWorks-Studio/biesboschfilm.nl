@@ -83,4 +83,8 @@
     z-index: -10;
     filter: blur(1rem);
   }
+
+  .intro {
+    padding-bottom: 6rem;
+  }
 </style>
