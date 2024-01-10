@@ -40,6 +40,12 @@
 
   <p>Samen zijn wij <em>FastWorks</em>.</p>
 
+  <p>
+    Daarnaast werken wij samen met <a target="_blank" href="https://www.linkedin.com/in/bas-bakker-1887b025/">Bas Bakker</a> van <a href="https://playbackimages.com" target="_blank">Playback Images</a>.
+    Hij zorgt voor productie en distributie van de film.
+    <a href="https://playbackimages.com" target="_blank"><img src="assets/images/playback-images-logo.png" alt="Logo van Playback Images" id="playback-images-logo" /></a>
+  </p>
+
   <figure class="photo">
     <img src="assets/images/biesbosch-jacques.jpg" alt="Jacques wordt gefilmd." />
     <figcaption>Gepensioneerd boswachter Jacques van der Neut deelt zijn visie over de Biesbosch.</figcaption>
@@ -271,5 +277,12 @@
     gap: 2rem;
     align-items: flex-start;
     flex-grow: 0;
+  }
+
+  #playback-images-logo {
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin: 4rem 0 8rem 0;
   }
 </style>
