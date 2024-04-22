@@ -144,6 +144,11 @@
 
   <p>We zijn erg blij met al onze donateurs, waaronder:</p>
 
+  <figure class="photo sponsor-logo">
+    <img src="assets/images/stichting-mastboom-brosens-logo.png" alt="Logo van De Mastboom Brosens Stichting" />
+    <figcaption><a href="https://mastboomhuis.nl/de-stichting/" target="_blank">De Mastboom Brosens Stichting</a></figcaption>
+  </figure>
+
   <ul>
     <li><a
       href="https://www.staatsbosbeheer.nl"
@@ -254,6 +259,19 @@
     height: auto;
     width: calc(100% + 8rem);
     object-fit: cover;
+  }
+
+  .photo.sponsor-logo {
+    width: auto;
+    height: auto;
+    margin: 1rem 0 4rem 0;
+  }
+  .photo.sponsor-logo > img {
+    width: auto;
+    height: 20rem;
+  }
+  .photo.sponsor-logo > figcaption {
+    padding: 0;
   }
 
   .photo > img {
