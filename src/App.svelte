@@ -37,7 +37,7 @@
 
     <section class="intro">
       <a id="escape-hatch" href="/">
-        <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Grootse natuur in een klein land" />
+        <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Natuur in beweging" />
       </a>
       <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
     </section>

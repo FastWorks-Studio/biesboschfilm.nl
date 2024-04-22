@@ -36,7 +36,7 @@
 </script>
 
 <main style="width:{width}px">
-  <Logo subtitle="Grootse natuur in een klein land" />
+  <Logo subtitle="Natuur in beweging" />
   <video preload="none" src={videoUrl} autoplay muted loop playsinline />
   <content>
     <badgeContainer>
@@ -136,7 +136,7 @@
     <a target="_blank" href="https://www.youtube.com/watch?v=r2gcHdI4AJY"
       >Bekijk mijn werk voor Rijkswaterstaat</a
     >
-    <h3>De Biesbosch: Grootse natuur in een klein land</h3>
+    <h3>De Biesbosch: Natuur in beweging</h3>
     <p>
       De Biesbosch is een prachtig gebied en ligt praktisch in mijn achtertuin.
       Een uniek gebied waar ik graag ben en meer over te weten wil komen. Samen
