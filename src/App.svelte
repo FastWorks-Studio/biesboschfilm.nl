@@ -39,6 +39,11 @@
       <a id="escape-hatch" href="/">
         <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Natuur in beweging" />
       </a>
+
+      <div class="video trailer">
+        <iframe style="width:{width}px; height:{width*(9/16)}px;" src="https://www.youtube.com/embed/63S1zyBd9Kc?si=qQNEV9YF-v_yv513" title="Trailer (on YouTube)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
       <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
     </section>
     
@@ -86,5 +91,19 @@
 
   .intro {
     padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
   }
+
+  .trailer {
+    align-self: center;
+    padding: 2rem 0 6rem 0;
+  }
+
+  /* .trailer iframe {
+    width: 100vw;
+    height: 48.46vw;
+    max-width: 100%;
+    max-height: 630px;
+  } */
 </style>

@@ -2,6 +2,11 @@
   import Button from "../components/Button.svelte";
 </script>
 
+<div class="synopsis">
+  <p>In De Biesbosch: Natuur in beweging krijgt u een kijkje in het leven van de dieren die in de Biesbosch voorkomen. Ook krijgt u het verhaal en de geschiedenis van dit gebied te horen; er is in de loop der jaren veel veranderd.  De aangewezen persoon om ons te helpen dit in beeld te brengen is oud-boswachter Jacques van der Neut. Dankzij zijn tientallen jaren Biesbosch-ervaring en kennis weten we precies wat belangrijk is om te vertellen en te laten zien.</p>
+  <p>De Biesbosch is een zoetwatergetijdengebied, dat is uniek op wereldschaal. Na honderden jaren gebruikt te zijn voor industriële doeleinden is het sinds 1994 een nationaal park geworden. Sindsdien is de natuur echt tot bloei gekomen. Als je in de Biesbosch bent voel je meteen de rust en ga je op in de natuur. Wij vinden dit een groot goed en laten mensen graag zien en voelen hoe mooi het is, zowel in de bioscoop als thuis.</p>
+</div>
+
 <section class="waarom">
   <h2>Waarom een film over de Biesbosch?</h2>
 
@@ -125,18 +130,23 @@
 </figure>
 
 <figure class="photo">
-  <img src="assets/images/zeearend.jpg" alt="Een porseleinhoen loopt door ondiep water." />
-  <figcaption>Deze jonge zeearend zit graag op dode bomen.</figcaption>
-</figure>
-
-<figure class="photo">
-  <img src="assets/images/sperwer.jpg" alt="Een vrouwelijke sperwer kijkt om." />
-  <figcaption>Sperwer (vrouwtje) kijkt om.</figcaption>
+  <img src="assets/images/zeearend.jpg" alt="Een zeearend." />
+  <figcaption>De zeearend, ook wel bekend als "de vliegende deur".</figcaption>
 </figure>
 
 <figure class="photo">
   <img src="assets/images/drone.jpg" alt="De Biesbosch zoals gezien vanuit onze drone; water en een paar stukken groen." />
   <figcaption>Met een drone laten we de hele Biesbosch in vogelvlucht zien.</figcaption>
+</figure>
+
+<figure class="photo">
+  <img src="assets/images/ijsvogel.jpg" alt="Een ijsvogel heeft een baby snoek gevangen." />
+  <figcaption>Deze ijsvogel heeft een baby snoek gevangen.</figcaption>
+</figure>
+
+<figure class="photo">
+  <img src="assets/images/water.jpg" alt="Hoog water in de Noordwaard." />
+  <figcaption>Als het water in de rivier te hoog staat, stroomt het overtollige water de Noordwaard in.</figcaption>
 </figure>
 
 <section>
