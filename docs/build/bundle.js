@@ -1073,7 +1073,7 @@ var app = (function () {
 	const file$2 = "src\\routes\\Home.svelte";
 
 	// (75:2) <Button click="bronnen">
-	function create_default_slot_2(ctx) {
+	function create_default_slot_3(ctx) {
 		let t;
 
 		const block = {
@@ -1092,7 +1092,7 @@ var app = (function () {
 
 		dispatch_dev("SvelteRegisterBlock", {
 			block,
-			id: create_default_slot_2.name,
+			id: create_default_slot_3.name,
 			type: "slot",
 			source: "(75:2) <Button click=\\\"bronnen\\\">",
 			ctx
@@ -1102,7 +1102,7 @@ var app = (function () {
 	}
 
 	// (247:4) <Button click="mailto:info@baskakes.nl?subject=Biesbosch film"        >
-	function create_default_slot_1(ctx) {
+	function create_default_slot_2(ctx) {
 		let t;
 
 		const block = {
@@ -1121,7 +1121,7 @@ var app = (function () {
 
 		dispatch_dev("SvelteRegisterBlock", {
 			block,
-			id: create_default_slot_1.name,
+			id: create_default_slot_2.name,
 			type: "slot",
 			source: "(247:4) <Button click=\\\"mailto:info@baskakes.nl?subject=Biesbosch film\\\"        >",
 			ctx
@@ -1131,7 +1131,7 @@ var app = (function () {
 	}
 
 	// (250:4) <Button click="https://www.linkedin.com/in/bas-kakes/">
-	function create_default_slot$1(ctx) {
+	function create_default_slot_1(ctx) {
 		let t;
 
 		const block = {
@@ -1150,9 +1150,38 @@ var app = (function () {
 
 		dispatch_dev("SvelteRegisterBlock", {
 			block,
-			id: create_default_slot$1.name,
+			id: create_default_slot_1.name,
 			type: "slot",
 			source: "(250:4) <Button click=\\\"https://www.linkedin.com/in/bas-kakes/\\\">",
+			ctx
+		});
+
+		return block;
+	}
+
+	// (256:2) <Button click="mailto:bas@playbackimages.com?subject=Biesbosch film"      >
+	function create_default_slot$1(ctx) {
+		let t;
+
+		const block = {
+			c: function create() {
+				t = text("Mail Playback Images");
+			},
+			m: function mount(target, anchor) {
+				insert_dev(target, t, anchor);
+			},
+			d: function destroy(detaching) {
+				if (detaching) {
+					detach_dev(t);
+				}
+			}
+		};
+
+		dispatch_dev("SvelteRegisterBlock", {
+			block,
+			id: create_default_slot$1.name,
+			type: "slot",
+			source: "(256:2) <Button click=\\\"mailto:bas@playbackimages.com?subject=Biesbosch film\\\"      >",
 			ctx
 		});
 
@@ -1372,12 +1401,17 @@ var app = (function () {
 		let button1;
 		let t136;
 		let button2;
+		let t137;
+		let section8;
+		let h28;
+		let t139;
+		let button3;
 		let current;
 
 		button0 = new Button({
 				props: {
 					click: "bronnen",
-					$$slots: { default: [create_default_slot_2] },
+					$$slots: { default: [create_default_slot_3] },
 					$$scope: { ctx }
 				},
 				$$inline: true
@@ -1386,7 +1420,7 @@ var app = (function () {
 		button1 = new Button({
 				props: {
 					click: "mailto:info@baskakes.nl?subject=Biesbosch film",
-					$$slots: { default: [create_default_slot_1] },
+					$$slots: { default: [create_default_slot_2] },
 					$$scope: { ctx }
 				},
 				$$inline: true
@@ -1395,6 +1429,15 @@ var app = (function () {
 		button2 = new Button({
 				props: {
 					click: "https://www.linkedin.com/in/bas-kakes/",
+					$$slots: { default: [create_default_slot_1] },
+					$$scope: { ctx }
+				},
+				$$inline: true
+			});
+
+		button3 = new Button({
+				props: {
+					click: "mailto:bas@playbackimages.com?subject=Biesbosch film",
 					$$slots: { default: [create_default_slot$1] },
 					$$scope: { ctx }
 				},
@@ -1656,6 +1699,12 @@ var app = (function () {
 				create_component(button1.$$.fragment);
 				t136 = space();
 				create_component(button2.$$.fragment);
+				t137 = space();
+				section8 = element("section");
+				h28 = element("h2");
+				h28.textContent = "Persaanvragen en filmdistributie";
+				t139 = space();
+				create_component(button3.$$.fragment);
 				add_location(p0, file$2, 5, 2, 107);
 				add_location(p1, file$2, 6, 2, 575);
 				attr_dev(div0, "class", "synopsis");
@@ -1899,6 +1948,10 @@ var app = (function () {
 				add_location(div1, file$2, 246, 2, 10068);
 				attr_dev(section7, "class", "svelte-1qbsvv");
 				add_location(section7, file$2, 240, 0, 9943);
+				attr_dev(h28, "class", "svelte-1qbsvv");
+				add_location(h28, file$2, 255, 2, 10314);
+				attr_dev(section8, "class", "svelte-1qbsvv");
+				add_location(section8, file$2, 254, 0, 10301);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2104,6 +2157,11 @@ var app = (function () {
 				mount_component(button1, div1, null);
 				append_dev(div1, t136);
 				mount_component(button2, div1, null);
+				insert_dev(target, t137, anchor);
+				insert_dev(target, section8, anchor);
+				append_dev(section8, h28);
+				append_dev(section8, t139);
+				mount_component(button3, section8, null);
 				current = true;
 			},
 			p: function update(ctx, [dirty]) {
@@ -2128,18 +2186,27 @@ var app = (function () {
 				}
 
 				button2.$set(button2_changes);
+				const button3_changes = {};
+
+				if (dirty & /*$$scope*/ 1) {
+					button3_changes.$$scope = { dirty, ctx };
+				}
+
+				button3.$set(button3_changes);
 			},
 			i: function intro(local) {
 				if (current) return;
 				transition_in(button0.$$.fragment, local);
 				transition_in(button1.$$.fragment, local);
 				transition_in(button2.$$.fragment, local);
+				transition_in(button3.$$.fragment, local);
 				current = true;
 			},
 			o: function outro(local) {
 				transition_out(button0.$$.fragment, local);
 				transition_out(button1.$$.fragment, local);
 				transition_out(button2.$$.fragment, local);
+				transition_out(button3.$$.fragment, local);
 				current = false;
 			},
 			d: function destroy(detaching) {
@@ -2171,11 +2238,14 @@ var app = (function () {
 					detach_dev(section6);
 					detach_dev(t131);
 					detach_dev(section7);
+					detach_dev(t137);
+					detach_dev(section8);
 				}
 
 				destroy_component(button0);
 				destroy_component(button1);
 				destroy_component(button2);
+				destroy_component(button3);
 			}
 		};
 

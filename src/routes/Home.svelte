@@ -252,6 +252,13 @@
   </div>
 </section>
 
+<section>
+  <h2>Persaanvragen en filmdistributie</h2>
+  <Button click="mailto:bas@playbackimages.com?subject=Biesbosch film"
+    >Mail Playback Images</Button
+  >
+</section>
+
 <style>
   h2 {
     padding-top: 3rem;
