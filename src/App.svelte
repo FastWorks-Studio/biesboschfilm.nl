@@ -40,7 +40,10 @@
         <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Natuur in beweging" />
       </a>
 
-      <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
+      <div class="intro-buttons">
+        <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
+        <Button fluid={true} center={true} click="https://www.instagram.com/biesboschfilm/">Volg ons op Instagram</Button>
+      </div>
     </section>
     
     {#if page==="/bronnen"}
@@ -92,6 +95,19 @@
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
+  }
+
+  .intro-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .intro-buttons {
+      flex-direction: column;
+      gap: 0;
+    }
   }
 
   .trailer {
