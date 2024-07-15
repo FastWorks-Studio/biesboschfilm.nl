@@ -5,6 +5,8 @@
 <div class="synopsis">
   <p>In De Biesbosch: Natuur in beweging krijgt u een kijkje in het leven van de dieren die in de Biesbosch voorkomen. Ook krijgt u het verhaal en de geschiedenis van dit gebied te horen; er is in de loop der jaren veel veranderd.  De aangewezen persoon om ons te helpen dit in beeld te brengen is oud-boswachter Jacques van der Neut. Dankzij zijn tientallen jaren Biesbosch-ervaring en kennis weten we precies wat belangrijk is om te vertellen en te laten zien.</p>
   <p>De Biesbosch is een zoetwatergetijdengebied, dat is uniek op wereldschaal. Na honderden jaren gebruikt te zijn voor industriële doeleinden is het sinds 1994 een nationaal park geworden. Sindsdien is de natuur echt tot bloei gekomen. Als je in de Biesbosch bent voel je meteen de rust en ga je op in de natuur. Wij vinden dit een groot goed en laten mensen graag zien en voelen hoe mooi het is, zowel in de bioscoop als thuis.</p>
+
+  <p>De film zal in première gaan op het <a target="_blank" href="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Wildlife Film Festival Rotterdam (WFFR)</a> in november 2024, en is <a target="_blank" href="https://wffr.nl/professionals-en/nominees-en/">daar genomineerd in de categorie beste onafhankelijke productie</a>.</p>
 </div>
 
 <section class="waarom">
@@ -261,7 +263,7 @@
 
 <style>
   h2 {
-    padding-top: 3rem;
+    padding-top: 0rem;
   }
 
   section {

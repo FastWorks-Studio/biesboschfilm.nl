@@ -23,14 +23,14 @@
   type="button"
   on:click={onClick}
   class="{fluid ? 'fluid' : ''}"
-  style="margin: {center ? '0 auto 0 auto' : '0'}"
+  style="margin: {center ? '0 auto 3rem auto' : '0 0 3rem 0'}"
 >
   <slot />
 </button>
 
 <style>
   button {
-    padding: 1.4rem 3rem 2rem 3rem;
+    padding: 2rem 3rem 2rem 3rem;
     border-radius: 1rem;
     text-align: center;
     border: 0.25rem solid var(--color-primary);
@@ -41,7 +41,6 @@
     color: var(--color-primary);
     font-family: var(--font-body-bold);
     font-size: inherit;
-    /* display: inline-block; */
   }
 
   button:hover,
