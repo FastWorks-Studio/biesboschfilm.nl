@@ -3,6 +3,8 @@
   export let click: (() => void) | string;
   export let center: boolean = false;
   export let fluid: boolean = false;
+  export let primary: boolean = false;
+  export let noMargin: boolean = false;
 
   function onClick() {
     if (typeof click === "string") {
@@ -22,8 +24,9 @@
 <button
   type="button"
   on:click={onClick}
-  class="{fluid ? 'fluid' : ''}"
-  style="margin: {center ? '0 auto 3rem auto' : '0 0 3rem 0'}"
+  class:fluid
+  class:primary
+  style="margin: {center ? '0 auto 3rem auto' : '0 0 3rem 0'}; margin: {!noMargin ? '0 !important' : ''}"
 >
   <slot />
 </button>
@@ -46,14 +49,15 @@
   button:hover,
   button:active {
     background-color: var(--color-primary);
-  }
-
-  button:hover,
-  button:active {
     color: var(--color-white);
   }
 
   .fluid {
     width: 100%;
+  }
+
+  .primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
   }
 </style>

@@ -3,6 +3,7 @@
   import Button from "./components/Button.svelte";
   import Home from './routes/Home.svelte';
   import Sources from './routes/Sources.svelte';
+  import Viewings from "./routes/Viewings.svelte";
 
   $: innerWidth = 0;
   $: width = Math.min(
@@ -40,14 +41,21 @@
         <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Natuur in beweging" />
       </a>
 
+      {#if page!=="/vertoningen"}
+      <div class="call-to-action">
+        <Button fluid={true} center={true} primary={true} click="vertoningen">Vertoningen</Button>
+      </div>
       <div class="intro-buttons">
         <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
         <Button fluid={true} center={true} click="https://www.instagram.com/biesboschfilm/">Volg ons op Instagram</Button>
       </div>
+      {/if}
     </section>
     
     {#if page==="/bronnen"}
         <Sources />
+    {:else if page==="/vertoningen"}
+        <Viewings />
     {:else}
         <div class="video trailer">
           <iframe style="width:{width}px; height:{width*(9/16)}px;" src="https://www.youtube.com/embed/5kNowmTTiUM?si=nO8iVXg3t0QMH0tu" title="Trailer (on YouTube)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -96,6 +104,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* .call-to-action {
+    
+  } */
 
   .intro-buttons {
     display: flex;
