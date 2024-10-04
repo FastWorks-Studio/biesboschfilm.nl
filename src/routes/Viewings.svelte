@@ -142,10 +142,10 @@
   <li class="viewing">
     <div class="date-and-location">
       <span class="date">di 26 november 2024</span>
-      <span class="location">Louis Hartlooper Complex Utrecht</span>
+      <span class="location">Slachtstraat Utrecht</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
     </div>
   </li>
 </ul>
