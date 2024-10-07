@@ -148,6 +148,16 @@
       <Button noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
     </div>
   </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">zo 15 december 2024</span>
+      <span class="location">LUX Nijmegen</span>
+    </div>
+    <div class="buy">
+      <div class="not-available">Nog niet beschikbaar</div>
+    </div>
+  </li>
 </ul>
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
