@@ -61,21 +61,21 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">do 14 november 2024</span>
+      <span class="date">vr 15 november 2024</span>
       <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.heerenstraattheater.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">vr 15 november 2024</span>
+      <span class="date">za 16 november 2024</span>
       <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.heerenstraattheater.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -83,16 +83,6 @@
     <div class="date-and-location">
       <span class="date">za 16 november 2024</span>
       <span class="location">De Witt Dordrecht</span>
-    </div>
-    <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
-    </div>
-  </li>
-
-  <li class="viewing">
-    <div class="date-and-location">
-      <span class="date">zo 17 november 2024</span>
-      <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
       <div class="not-available">Nog niet beschikbaar</div>
