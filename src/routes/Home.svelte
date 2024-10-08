@@ -90,32 +90,40 @@
 
 <section>
   <h2>In de media</h2>
+
   <p>
-    Het AD schreef over onze film en crowdfunding,
-    <a href="https://www.ad.nl/dordrecht/bas-start-crowdfunding-om-natuurdocu-over-biesbosch-af-te-kunnen-maken-grootse-natuur-in-een-klein-land~a1e15a649/" target="_blank">klik hier om het terug te lezen</a>.
+    <span class="date">7 oktober 2024</span>
+    In het AD wordt aandacht besteed aan het af zijn van onze film en wat Bas en Jacques zoal gezien hebben.
+    <a href="https://www.ad.nl/dordrecht/documentairefilm-over-de-biesbosch-na-vier-jaar-klaar-en-bijna-in-premiere-bevers-zwommen-om-onze-boot~a8656b47/" target="_blank" rel="noreferrer noopener">
+      Lees het hier.
+    </a>
   </p>
-  
+
   <p>
+    <span class="date">4 februari 2023</span>
     Op zaterdagochtend 4 februari 2023 waren Bas en Jacques te horen op Radio Rijnmond in het programma
     <em>Chris Natuurlijk</em>.
     <a href="https://www.rijnmond.nl/nieuws/1611636/chris-natuurlijk-van-4-februari-make-a-wish" target="_blank" rel="noreferrer noopener">Klik hier voor meer informatie.</a>
-  </p>
-
-  <p>
     Dit interview is in <a href="https://podcasts.apple.com/nl/podcast/chris-natuurlijk/id356338103?l=en" target="_blank" rel="noreferrer noopener">hun podcast terug te luisteren</a>.
   </p>
+  <figure class="photo">
+    <img src="assets/images/jacques-rijnmond.jpg" alt="Jacques wordt geïnterviewd." />
+    <figcaption>Jacques in gesprek met Chris van Radio Rijnmond.</figcaption>
+  </figure>
 
   <p>
+    <span class="date">3 februari 2023</span>
     RTV Dordrecht ging met ons op pad en wilde meer weten over deze film.
     <a href="https://www.rtvdordrecht.nl/nieuws/natuur/crowdfundingsactie-gestart-voor-natuurdocumentaire-over-de-biesbosch" target="_blank" rel="noreferrer noopener">
       Bekijk het hier.
     </a>
   </p>
 
-  <figure class="photo">
-    <img src="assets/images/jacques-rijnmond.jpg" alt="Jacques wordt geïnterviewd." />
-    <figcaption>Jacques in gesprek met Chris van Radio Rijnmond.</figcaption>
-  </figure>
+  <p>
+    <span class="date">25 januari 2023</span>
+    Het AD schreef over onze film en crowdfunding,
+    <a href="https://www.ad.nl/dordrecht/bas-start-crowdfunding-om-natuurdocu-over-biesbosch-af-te-kunnen-maken-grootse-natuur-in-een-klein-land~a1e15a649/" target="_blank">klik hier om het terug te lezen</a>.
+  </p>
 </section>
 
 <section>
@@ -321,5 +329,10 @@
     height: auto;
     display: block;
     margin: 4rem 0 8rem 0;
+  }
+
+  .date {
+    font-weight: bold;
+    display: block;
   }
 </style>
