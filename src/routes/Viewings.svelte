@@ -45,7 +45,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -85,7 +85,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -115,7 +115,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
     </div>
   </li>
 
