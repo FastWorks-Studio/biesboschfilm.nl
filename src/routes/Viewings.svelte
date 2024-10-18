@@ -146,7 +146,6 @@
     </div>
     <div class="buy">
       <Button noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      <div class="not-available">Nog niet beschikbaar</div>
     </div>
   </li>
 </ul>
