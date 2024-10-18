@@ -55,7 +55,7 @@
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -95,7 +95,7 @@
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -125,7 +125,7 @@
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
     </div>
   </li>
 
