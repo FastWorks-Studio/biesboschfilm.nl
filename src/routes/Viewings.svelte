@@ -15,7 +15,7 @@
       <span class="location">Cinerama Rotterdam, Wildlife Film Festival Rotterdam</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+      <div class="not-available">Uitverkocht</div>
     </div>
   </li>
 
