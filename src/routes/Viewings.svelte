@@ -193,4 +193,19 @@
     align-items: center;
     width: 26rem;
   }
+
+  @media screen and (max-width: 1000px) {
+    .viewing {
+      flex-direction: column;
+      padding-bottom: 2rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--color-white);
+    }
+    .buy {
+      margin-top: 3rem;
+      justify-content: left;
+      align-items: flex-start;
+      height: auto;
+    }
+  }
 </style>

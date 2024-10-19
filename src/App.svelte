@@ -105,10 +105,6 @@
     flex-direction: column;
   }
 
-  /* .call-to-action {
-    
-  } */
-
   .intro-buttons {
     display: flex;
     justify-content: space-between;

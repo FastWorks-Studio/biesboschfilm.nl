@@ -335,4 +335,17 @@
     font-weight: bold;
     display: block;
   }
+
+  @media screen and (max-width: 1000px) {
+    .photo.sponsor-logo {
+      width: 100%;
+    }
+    .photo.sponsor-logo > img {
+      width: 100%;
+      height: auto;
+    }
+    .contact-buttons {
+      flex-direction: column;
+    }
+  }
 </style>

@@ -26,7 +26,8 @@
   on:click={onClick}
   class:fluid
   class:primary
-  style="margin: {center ? '0 auto 3rem auto' : '0 0 3rem 0'}; margin: {!noMargin ? '0 !important' : ''}"
+  class:noMargin
+  class:center
 >
   <slot />
 </button>
@@ -44,6 +45,15 @@
     color: var(--color-primary);
     font-family: var(--font-body-bold);
     font-size: inherit;
+    margin: 0 0 3rem 0;
+  }
+
+  button.center {
+    margin: 0 auto 3rem auto;
+  }
+
+  button.noMargin {
+    margin: 0!important;
   }
 
   button:hover,
