@@ -15,7 +15,7 @@
       <span class="location">Cinerama Rotterdam, Wildlife Film Festival Rotterdam</span>
     </div>
     <div class="buy">
-      <div class="not-available">Uitverkocht</div>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
@@ -192,6 +192,20 @@
     justify-content: center;
     align-items: center;
     width: 26rem;
+  }
+
+  .sold-out {
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: var(--color-disabled);
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+    min-width: 20rem;
+    color: var(--color-white);
+    font-family: var(--font-body-bold);
+    font-size: inherit;
+    margin: 0 0 3rem 0;
   }
 
   @media screen and (max-width: 1000px) {

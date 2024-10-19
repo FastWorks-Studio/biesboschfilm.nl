@@ -249,21 +249,7 @@
 </section>
 
 <section>
-  <h2>Vragen?</h2>
-  <p>
-    Heeft u vragen over dit project? Schroom niet om contact op te nemen.
-  </p>
-
-  <div class="contact-buttons">
-    <Button click="mailto:info@baskakes.nl?subject=Biesbosch film"
-      >Mail Bas</Button
-    >
-    <Button click="https://www.linkedin.com/in/bas-kakes/">LinkedIn</Button>
-  </div>
-</section>
-
-<section>
-  <h2>Persaanvragen en filmdistributie</h2>
+  <h2>Vragen, persaanvragen en filmdistributie</h2>
   <Button click="mailto:bas@playbackimages.com?subject=Biesbosch film"
     >Mail Playback Images</Button
   >
@@ -317,13 +303,6 @@
     font-style: italic;
   }
 
-  .contact-buttons {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    flex-grow: 0;
-  }
-
   #playback-images-logo {
     width: 20rem;
     height: auto;
@@ -343,9 +322,6 @@
     .photo.sponsor-logo > img {
       width: 100%;
       height: auto;
-    }
-    .contact-buttons {
-      flex-direction: column;
     }
   }
 </style>
