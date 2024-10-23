@@ -105,7 +105,7 @@
       <span class="location">Focus Arnhem</span>
     </div>
     <div class="buy">
-      <div class="not-available">Nog niet beschikbaar</div>
+      <Button noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
     </div>
   </li>
 
