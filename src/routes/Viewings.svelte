@@ -62,6 +62,16 @@
   <li class="viewing">
     <div class="date-and-location">
       <span class="date">vr 15 november 2024</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">vr 15 november 2024</span>
       <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
@@ -126,6 +136,26 @@
     </div>
     <div class="buy">
       <Button noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">do 21 november 2024</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">zo 24 november 2024</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
     </div>
   </li>
 
