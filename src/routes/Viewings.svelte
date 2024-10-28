@@ -61,6 +61,16 @@
 
   <li class="viewing">
     <div class="date-and-location">
+      <span class="date">wo 13 november 2024 21:15</span>
+      <span class="location">Chassé Theater Breda</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
       <span class="date">vr 15 november 2024 14:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
