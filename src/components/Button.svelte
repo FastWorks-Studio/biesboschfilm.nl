@@ -5,6 +5,7 @@
   export let fluid: boolean = false;
   export let primary: boolean = false;
   export let noMargin: boolean = false;
+  export let contrast: boolean = false;
 
   function onClick() {
     if (typeof click === "string") {
@@ -26,6 +27,7 @@
   on:click={onClick}
   class:fluid
   class:primary
+  class:contrast
   class:noMargin
   class:center
 >
@@ -68,6 +70,12 @@
 
   .primary {
     background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .contrast {
+    background-color: var(--color-contrast);
+    border-color: var(--color-contrast);
     color: var(--color-white);
   }
 </style>

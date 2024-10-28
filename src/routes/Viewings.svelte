@@ -35,33 +35,33 @@
       <span class="location">Cinerama Rotterdam, Wildlife Film Festival Rotterdam</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">di 12 november 2024</span>
+      <span class="date">di 12 november 2024 19:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">wo 13 november 2024</span>
+      <span class="date">wo 13 november 2024 19:00</span>
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Laatste kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">vr 15 november 2024</span>
+      <span class="date">vr 15 november 2024 14:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
@@ -71,7 +71,7 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">vr 15 november 2024</span>
+      <span class="date">vr 15 november 2024 19:00</span>
       <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
@@ -81,7 +81,7 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">za 16 november 2024</span>
+      <span class="date">za 16 november 2024 11:30</span>
       <span class="location">Heerenstraat Theater Wageningen</span>
     </div>
     <div class="buy">
@@ -91,27 +91,27 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">za 16 november 2024</span>
+      <span class="date">za 16 november 2024 14:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">zo 17 november 2024</span>
+      <span class="date">zo 17 november 2024 14:30</span>
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Laatste kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">ma 18 november 2024</span>
+      <span class="date">ma 18 november 2024 19:00</span>
       <span class="location">Focus Arnhem</span>
     </div>
     <div class="buy">
@@ -121,17 +121,7 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">di 19 november 2024</span>
-      <span class="location">De Witt Dordrecht</span>
-    </div>
-    <div class="buy">
-      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
-    </div>
-  </li>
-
-  <li class="viewing">
-    <div class="date-and-location">
-      <span class="date">di 19 november 2024</span>
+      <span class="date">di 19 november 2024 13:30</span>
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
@@ -141,7 +131,17 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">do 21 november 2024</span>
+      <span class="date">di 19 november 2024 19:00</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">do 21 november 2024 19:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
@@ -151,7 +151,7 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">zo 24 november 2024</span>
+      <span class="date">zo 24 november 2024 12:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
@@ -161,17 +161,17 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">di 26 november 2024</span>
+      <span class="date">di 26 november 2024 19:00</span>
       <span class="location">Slachtstraat Utrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Laatste kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">zo 15 december 2024</span>
+      <span class="date">zo 15 december 2024 11:30</span>
       <span class="location">LUX Nijmegen</span>
     </div>
     <div class="buy">
@@ -182,6 +182,8 @@
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
+  <li><a href="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard" target="_blank">Service Bioscoop Hollywoud • Almkerk</a></li>
+  <li>Museon-Omniversum • Den Haag</li>
   <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
   <li>Cinecitta • Tilburg</li>
