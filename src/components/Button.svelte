@@ -1,11 +1,24 @@
 <script lang="ts">
 
+  import { onMount } from 'svelte';
+
   export let click: (() => void) | string;
   export let center: boolean = false;
   export let fluid: boolean = false;
   export let primary: boolean = false;
   export let noMargin: boolean = false;
   export let contrast: boolean = false;
+  export let dataLink: string;
+
+  onMount(() => {
+    if (typeof click === "string" && (click.startsWith('http://') || click.startsWith('https://'))) {
+      dataLink = click;
+    }
+  });
+
+  $: if (typeof click === "string" && (click.startsWith('http://') || click.startsWith('https://'))) {
+    dataLink = click;
+  }
 
   function onClick() {
     if (typeof click === "string") {
@@ -30,6 +43,7 @@
   class:contrast
   class:noMargin
   class:center
+  data-link="{dataLink}"
 >
   <slot />
 </button>
