@@ -78,4 +78,9 @@
     border-color: var(--color-contrast);
     color: var(--color-white);
   }
+  button.contrast:hover,
+  button.contrast:active {
+    background-color: var(--color-contrast);
+    color: var(--color-white);
+  }
 </style>

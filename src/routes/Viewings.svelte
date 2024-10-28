@@ -55,7 +55,7 @@
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <Button noMargin contrast click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Laatste kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
