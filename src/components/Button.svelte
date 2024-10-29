@@ -8,7 +8,7 @@
   export let primary: boolean = false;
   export let noMargin: boolean = false;
   export let contrast: boolean = false;
-  export let dataLink: string;
+  let dataLink: string;
 
   onMount(() => {
     if (typeof click === "string" && (click.startsWith('http://') || click.startsWith('https://'))) {

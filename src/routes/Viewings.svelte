@@ -82,20 +82,20 @@
   <li class="viewing">
     <div class="date-and-location">
       <span class="date">vr 15 november 2024 19:00</span>
-      <span class="location">Heerenstraat Theater Wageningen</span>
+      <span class="location">Visum Mundi Wageningen</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.heerenstraattheater.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
+      <Button noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
     </div>
   </li>
 
   <li class="viewing">
     <div class="date-and-location">
       <span class="date">za 16 november 2024 11:30</span>
-      <span class="location">Heerenstraat Theater Wageningen</span>
+      <span class="location">Visum Mundi Wageningen</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.heerenstraattheater.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
+      <Button noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
     </div>
   </li>
 
@@ -115,7 +115,7 @@
       <span class="location">Chassé Theater Breda</span>
     </div>
     <div class="buy">
-      <Button noMargin contrast click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Laatste kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
@@ -176,6 +176,16 @@
     </div>
     <div class="buy">
       <Button noMargin contrast click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Laatste kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">za 30 november 2024 14:00</span>
+      <span class="location">Focus Arnhem</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
     </div>
   </li>
 
