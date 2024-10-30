@@ -41,6 +41,16 @@
 
   <li class="viewing">
     <div class="date-and-location">
+      <span class="date">vr 11 november 2024</span>
+      <span class="location">Service Bioscoop Hollywoud Almkerk</span>
+    </div>
+    <div class="buy">
+      <div class="not-available">Nog niet beschikbaar</div>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
       <span class="date">di 12 november 2024 19:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
@@ -191,6 +201,26 @@
 
   <li class="viewing">
     <div class="date-and-location">
+      <span class="date">wo 11 december 2024 13:30</span>
+      <span class="location">Service Bioscoop INDUSTRY Cuijk</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">do 12 december 2024</span>
+      <span class="location">Cinecitta Tilburg</span>
+    </div>
+    <div class="buy">
+      <div class="not-available">Nog niet beschikbaar</div>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
       <span class="date">zo 15 december 2024 11:30</span>
       <span class="location">LUX Nijmegen</span>
     </div>
@@ -198,15 +228,23 @@
       <Button noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
     </div>
   </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">wo 18 december 2024 13:30</span>
+      <span class="location">Service Bioscoop INDUSTRY Cuijk</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+    </div>
+  </li>
 </ul>
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
-  <li><a href="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard" target="_blank">Service Bioscoop Hollywoud • Almkerk</a></li>
   <li>Museon-Omniversum • Den Haag</li>
   <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
-  <li>Cinecitta • Tilburg</li>
   <li><a href="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging" target="_blank">Landvast • Alblasserdam</a></li>
 </ul>
 

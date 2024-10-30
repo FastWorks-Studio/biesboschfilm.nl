@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "cp public/index.html public/404.html; cp public/index.html public/vertoningen.html; cp public/index.html public/bronnen.html; rollup -c; cp -R public/** docs",
+    "build-lite": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --single --no-clear",
     "docs": "sirv public --single --no-clear",
