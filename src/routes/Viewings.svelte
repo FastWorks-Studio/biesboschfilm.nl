@@ -55,7 +55,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
@@ -155,7 +155,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
@@ -185,7 +185,7 @@
       <span class="location">Slachtstraat Utrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin contrast click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Laatste kaarten</Button>
+      <div class="not-available sold-out">Uitverkocht</div>
     </div>
   </li>
 
