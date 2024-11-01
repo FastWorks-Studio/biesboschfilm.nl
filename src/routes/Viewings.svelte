@@ -165,7 +165,7 @@
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
-      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
     </div>
   </li>
 
