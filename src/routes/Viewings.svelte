@@ -81,6 +81,16 @@
 
   <li class="viewing">
     <div class="date-and-location">
+      <span class="date">do 14 november 2024 19:00</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
       <span class="date">vr 15 november 2024 14:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
@@ -161,6 +171,16 @@
 
   <li class="viewing">
     <div class="date-and-location">
+      <span class="date">wo 20 november 2024 16:15</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
       <span class="date">do 21 november 2024 19:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
@@ -171,11 +191,21 @@
 
   <li class="viewing">
     <div class="date-and-location">
-      <span class="date">zo 24 november 2024 12:00</span>
+      <span class="date">vr 22 november 2024 14:00</span>
       <span class="location">De Witt Dordrecht</span>
     </div>
     <div class="buy">
       <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">zo 24 november 2024 12:00</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
     </div>
   </li>
 
@@ -196,6 +226,26 @@
     </div>
     <div class="buy">
       <Button noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">di 26 november 2024 19:00</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+    </div>
+  </li>
+
+  <li class="viewing">
+    <div class="date-and-location">
+      <span class="date">wo 27 november 2024 16:15</span>
+      <span class="location">De Witt Dordrecht</span>
+    </div>
+    <div class="buy">
+      <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
     </div>
   </li>
 
