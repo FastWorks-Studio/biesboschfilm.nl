@@ -32,7 +32,7 @@
         <span class="date">ma 18 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
 
@@ -41,7 +41,7 @@
         <span class="date">za 30 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -65,7 +65,7 @@
         <span class="date">wo 13 november 2024 21:15</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
       </div>
     </li>
 
@@ -83,7 +83,7 @@
         <span class="date">di 19 november 2024 13:30</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -98,7 +98,7 @@
         <span class="date">wo 11 december 2024 13:30</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
       </div>
     </li>
 
@@ -107,7 +107,7 @@
         <span class="date">wo 18 december 2024 13:30</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -131,7 +131,7 @@
         <span class="date">do 14 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -140,7 +140,7 @@
         <span class="date">vr 15 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
 
@@ -149,7 +149,7 @@
         <span class="date">za 16 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
       </div>
     </li>
   
@@ -167,7 +167,7 @@
         <span class="date">wo 20 november 2024 16:15</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -176,7 +176,7 @@
         <span class="date">do 21 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
       </div>
     </li>
   
@@ -185,7 +185,7 @@
         <span class="date">vr 22 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -194,7 +194,7 @@
         <span class="date">zo 24 november 2024 12:00</span>
       </div>
       <div class="buy">
-        <Button noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
       </div>
     </li>
 
@@ -203,7 +203,7 @@
         <span class="date">di 26 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -212,7 +212,7 @@
         <span class="date">wo 27 november 2024 16:15</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -227,7 +227,7 @@
         <span class="date">zo 15 december 2024 11:30</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -251,7 +251,7 @@
         <span class="date">do 7 november 2024 13:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -306,7 +306,7 @@
         <span class="date">vr 15 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
       </div>
     </li>
   
@@ -315,7 +315,7 @@
         <span class="date">za 16 november 2024 11:30</span>
       </div>
       <div class="buy">
-        <Button noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -383,6 +383,7 @@
     color: var(--color-white);
     font-family: var(--font-body-bold);
     font-size: inherit;
+    width: 23rem !important;
   }
 
   @media screen and (max-width: 1000px) {

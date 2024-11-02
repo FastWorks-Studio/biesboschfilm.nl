@@ -8,6 +8,7 @@
   export let primary: boolean = false;
   export let noMargin: boolean = false;
   export let contrast: boolean = false;
+  export let fixedWidth: boolean = false;
   let dataLink: string;
 
   onMount(() => {
@@ -43,6 +44,7 @@
   class:contrast
   class:noMargin
   class:center
+  class:fixedWidth
   data-link="{dataLink}"
 >
   <slot />
@@ -70,6 +72,10 @@
 
   button.noMargin {
     margin: 0!important;
+  }
+
+  button.fixedWidth {
+    width: 23rem!important;
   }
 
   button:hover,
