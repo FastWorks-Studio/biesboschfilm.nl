@@ -83,7 +83,7 @@
   <h2>Almkerk • Service Bioscoop Hollywoud</h2>
 
   <ul class="viewings">
-    <li class="viewing">
+    <!-- <li class="viewing">
       <div class="date-and-location">
         <span class="date">do 07 november 2024 13:30</span>
       </div>
@@ -98,7 +98,7 @@
       <div class="buy">
         <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
       </div>
-    </li>
+    </li> -->
     <li class="viewing">
       <div class="date-and-location">
         <span class="date">ma 11 november 2024 13:30</span>
