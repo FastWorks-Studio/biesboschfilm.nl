@@ -92,6 +92,18 @@
   <h2>In de media</h2>
 
   <p>
+    <span class="date">4 november 2024</span>
+    RTV Dordrecht schrijft over onze besloten voorpremière.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.rtvdordrecht.nl/nieuws/stad/de-biesbosch-in-al-haar-glorie-als-documentaire-op-het-witte-doek">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">4 november 2024</span>
+    Dordrecht.net schrijft over onze besloten voorpremière.
+    <a target="_blank"rel="noreferrer noopener" href="https://www.dordrecht.net/nieuws/110898/sneaky-preview-van-de-documentaire-de-biesbosch-natuur-in-beweging-in-filmtheater-dewitt">Lees het hier.</a>
+  </p>
+
+  <p>
     <span class="date">7 oktober 2024</span>
     In het AD wordt aandacht besteed aan het af zijn van onze film en wat Bas en Jacques zoal gezien hebben.
     <a href="https://www.ad.nl/dordrecht/documentairefilm-over-de-biesbosch-na-vier-jaar-klaar-en-bijna-in-premiere-bevers-zwommen-om-onze-boot~a8656b47/" target="_blank" rel="noreferrer noopener">
