@@ -9,15 +9,78 @@
 <p><strong>Wijzigingen voorbehouden</strong></p>
 
 <div class="cinema">
+  <h2>Alblasserdam • Landvast</h2>
+
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 12 november 2024 16:15</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 12 november 2024 18:45</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">wo 13 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">wo 13 november 2024 16:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">wo 13 november 2024 18:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">vr 14 november 2024 14:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 19 november 2024 14:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="cinema">
   <h2>Almkerk • Service Bioscoop Hollywoud</h2>
 
   <ul class="viewings">
     <li class="viewing">
       <div class="date-and-location">
-        <span class="date">vr 11 november 2024</span>
+        <span class="date">ma 11 november 2024 20:30</span>
       </div>
       <div class="buy">
-        <div class="not-available">Nog niet beschikbaar</div>
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -340,7 +403,6 @@
 <ul>
   <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
-  <li><a href="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging" target="_blank">Landvast • Alblasserdam</a></li>
 </ul>
 
 <style>
