@@ -77,10 +77,42 @@
   <ul class="viewings">
     <li class="viewing">
       <div class="date-and-location">
+        <span class="date">do 07 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 10 november 2024 17:15</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">ma 11 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
         <span class="date">ma 11 november 2024 20:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Laatste kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 12 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
