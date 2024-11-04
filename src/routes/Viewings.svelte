@@ -114,6 +114,21 @@
 </div>
 
 <div class="cinema">
+  <h2>Den Haag • Museon-Omniversum</h2>
+
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 24 november 2024 11:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="cinema">
   <h2>Dordrecht • De Witt</h2>
 
   <ul class="viewings">
@@ -149,7 +164,7 @@
         <span class="date">za 16 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
   
@@ -323,7 +338,6 @@
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
-  <li>Museon-Omniversum • Den Haag</li>
   <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
   <li><a href="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging" target="_blank">Landvast • Alblasserdam</a></li>
