@@ -30,6 +30,14 @@
     </li>
     <li class="viewing">
       <div class="date-and-location">
+        <span class="date">wo 13 november 2024 13:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
         <span class="date">wo 13 november 2024 13:30</span>
       </div>
       <div class="buy">
