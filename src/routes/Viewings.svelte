@@ -4,7 +4,7 @@
 
 <h1>Vertoningen</h1>
 
-<p><em>De Biesbosch: Natuur in beweging</em> is vanaf 5 november te zien in verschillende bioscopen. De lijst met bioscopen en data zal nog verder groeien, dus houd onze site en socials in de gaten.</p>
+<p><em>De Biesbosch: Natuur in beweging</em> is nu te zien in verschillende bioscopen. De lijst met bioscopen en data zal nog verder groeien, dus houd onze site en socials in de gaten.</p>
 
 <p><strong>Wijzigingen voorbehouden</strong></p>
 
@@ -62,7 +62,7 @@
     </li>
     <li class="viewing">
       <div class="date-and-location">
-        <span class="date">vr 14 november 2024 14:00</span>
+        <span class="date">vr 15 november 2024 14:00</span>
       </div>
       <div class="buy">
         <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
@@ -83,22 +83,6 @@
   <h2>Almkerk • Service Bioscoop Hollywoud</h2>
 
   <ul class="viewings">
-    <!-- <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 07 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 10 november 2024 17:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
-      </div>
-    </li> -->
     <li class="viewing">
       <div class="date-and-location">
         <span class="date">ma 11 november 2024 13:30</span>
@@ -109,10 +93,18 @@
     </li>
     <li class="viewing">
       <div class="date-and-location">
+        <span class="date">ma 11 november 2024 19:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
         <span class="date">ma 11 november 2024 20:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
     <li class="viewing">

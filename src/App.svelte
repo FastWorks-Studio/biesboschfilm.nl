@@ -130,6 +130,7 @@
     margin-top: -4rem;
     margin-bottom: 2rem;
     line-height: 5.5rem;
+    text-align: center;
   }
 
 </style>
