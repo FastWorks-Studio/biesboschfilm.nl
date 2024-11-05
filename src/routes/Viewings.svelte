@@ -178,6 +178,24 @@
         <span class="date">di 19 november 2024 13:30</span>
       </div>
       <div class="buy">
+        <Button fixedWidth noMargin contrast click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Laatste kaarten</Button>
+      </div>
+    </li>
+
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">do 21 november 2024 19:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 24 november 2024 10:30</span>
+      </div>
+      <div class="buy">
         <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
       </div>
     </li>
@@ -382,11 +400,11 @@
   <ul class="viewings">
     <li class="viewing">
       <div class="date-and-location">
-        <span class="date">do 12 december 2024</span>
+        <span class="date">do 12 december 2024 19:15</span>
         <span class="location">Cinecitta Tilburg</span>
       </div>
       <div class="buy">
-        <div class="not-available">Nog niet beschikbaar</div>
+        <Button fixedWidth noMargin primary click="https://cinecitta.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
