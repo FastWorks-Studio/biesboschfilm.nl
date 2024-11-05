@@ -2,11 +2,32 @@
   import Button from "../components/Button.svelte";
 </script>
 
+<div class="original-music">
+  <h2>Originele muziek uit de film, <em>Stromingen</em>, nu overal te streamen</h2>
+
+  Het slotlied van de film, Stromingen, is nu overal te streamen.
+
+  <div class="double-button-group">
+    <Button fluid={true} center={true} click="https://open.spotify.com/track/2cUDH6iamun1Cli6IET0l3?si=4d56dbeab9b04eb0">Luister op Spotify</Button>
+    <Button fluid={true} center={true} click="https://www.youtube.com/watch?v=6AK6iRN-jWk">Luister op YouTube</Button>
+  </div>
+
+  <p>Ook te luisteren op <a href="https://music.apple.com/nl/album/stromingen/1777660248?i=1777660309" target="_blank">Apple Music</a>.</p>
+
+  <figure class="photo">
+    <img src="assets/images/stromingen-cover.png" alt="Albumhoes van Stromingen, originele muziek voor de film van Coen Koopmans en Kevin van den Hoek" />
+    <figcaption>Albumhoes van <em>Stromingen</em>.</figcaption>
+  </figure>
+
+</div>
+
 <div class="synopsis">
+  <h2>Over de film</h2>
+
   <p>In De Biesbosch: Natuur in beweging krijgt u een kijkje in het leven van de dieren die in de Biesbosch voorkomen. Ook krijgt u het verhaal en de geschiedenis van dit gebied te horen; er is in de loop der jaren veel veranderd.  De aangewezen persoon om ons te helpen dit in beeld te brengen is oud-boswachter Jacques van der Neut. Dankzij zijn tientallen jaren Biesbosch-ervaring en kennis weten we precies wat belangrijk is om te vertellen en te laten zien.</p>
   <p>De Biesbosch is een zoetwatergetijdengebied, dat is uniek op wereldschaal. Na honderden jaren gebruikt te zijn voor industriële doeleinden is het sinds 1994 een nationaal park geworden. Sindsdien is de natuur echt tot bloei gekomen. Als je in de Biesbosch bent voel je meteen de rust en ga je op in de natuur. Wij vinden dit een groot goed en laten mensen graag zien en voelen hoe mooi het is, zowel in de bioscoop als thuis.</p>
 
-  <p>De film zal in première gaan op het <a target="_blank" href="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Wildlife Film Festival Rotterdam (WFFR)</a> in november 2024, en is <a target="_blank" href="https://wffr.nl/professionals-en/nominees-en/">daar genomineerd in de categorie beste onafhankelijke productie</a>.</p>
+  <p>De film ging in première op 5 november 2024 op het <a target="_blank" href="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Wildlife Film Festival Rotterdam (WFFR)</a> in november 2024, en is <a target="_blank" href="https://wffr.nl/professionals-en/nominees-en/">daar genomineerd in de categorie beste onafhankelijke productie</a>.</p>
 </div>
 
 <section class="waarom">
@@ -334,6 +355,20 @@
     .photo.sponsor-logo > img {
       width: 100%;
       height: auto;
+    }
+  }
+
+  .double-button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .double-button-group {
+      flex-direction: column;
+      gap: 0;
     }
   }
 </style>

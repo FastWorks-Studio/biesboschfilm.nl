@@ -41,7 +41,7 @@
         <img id="logo" src="assets/images/logo.svg" alt="De Biesbosch: Natuur in beweging" />
       </a>
 
-      {#if page!=="/vertoningen"}
+      {#if page!=="/vertoningen" && page !=="/bronnen"}
       <div class="call-to-action">
         <Button fluid={true} center={true} primary={true} click="vertoningen">Vertoningen</Button>
       </div>
@@ -57,6 +57,8 @@
     {:else if page==="/vertoningen"}
         <Viewings />
     {:else}
+        <h2 id="in-cinemas-now">Nu in de bioscoop!</h2>
+
         <div class="video trailer">
           <iframe style="width:{width}px; height:{width*(9/16)}px;" src="https://www.youtube.com/embed/5kNowmTTiUM?si=nO8iVXg3t0QMH0tu" title="Trailer (on YouTube)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
@@ -121,6 +123,13 @@
   .trailer {
     align-self: center;
     padding: 0;
+  }
+
+  #in-cinemas-now {
+    font-size: 5rem;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    line-height: 5.5rem;
   }
 
 </style>
