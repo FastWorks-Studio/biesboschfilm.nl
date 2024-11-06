@@ -65,7 +65,7 @@
         <span class="date">vr 15 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -73,7 +73,7 @@
         <span class="date">di 19 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
       </div>
     </li>
   </ul>
@@ -312,7 +312,7 @@
         <span class="date">do 21 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
   
@@ -330,7 +330,7 @@
         <span class="date">zo 24 november 2024 12:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
 
@@ -461,6 +461,7 @@
 <ul>
   <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
+  <li>Theater Peeriscoop • Gorinchem</li>
 </ul>
 
 <style>
