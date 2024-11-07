@@ -9,7 +9,7 @@
 <p><strong>Wijzigingen voorbehouden</strong></p>
 
 <div class="cinema">
-  <h2>Alblasserdam • Landvast</h2>
+  <h3>Alblasserdam • Landvast</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -80,7 +80,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Almkerk • Service Bioscoop Hollywoud</h2>
+  <h3>Almkerk • Service Bioscoop Hollywoud</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -127,7 +127,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Arnhem • Focus</h2>
+  <h3>Arnhem • Focus</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -151,7 +151,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Breda • Chassé Theater</h2>
+  <h3>Breda • Chassé Theater</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -211,7 +211,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Cuijk • Service Bioscoop INDUSTRY</h2>
+  <h3>Cuijk • Service Bioscoop INDUSTRY</h3>
   
   <ul class="viewings">
     <li class="viewing">
@@ -235,7 +235,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Den Haag • Museon-Omniversum</h2>
+  <h3>Den Haag • Museon-Omniversum</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -250,7 +250,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Dordrecht • De Witt</h2>
+  <h3>Dordrecht • De Witt</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -355,7 +355,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Nijmegen • LUX</h2>
+  <h3>Nijmegen • LUX</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -370,27 +370,8 @@
 </div>
 
 <div class="cinema">
-  <h2>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h2>
-
+  <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
   <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 5 november 2024 19:30</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 7 november 2024 13:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-  
     <li class="viewing">
       <div class="date-and-location">
         <span class="date">vr 8 november 2024 20:30</span>
@@ -403,7 +384,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Tilburg • Cinecitta</h2>
+  <h3>Tilburg • Cinecitta</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -419,7 +400,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Utrecht • Slachtstraat</h2>
+  <h3>Utrecht • Slachtstraat</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -434,7 +415,7 @@
 </div>
 
 <div class="cinema">
-  <h2>Wageningen • Visum Mundi, Wildlife Film Festival</h2>
+  <h3>Wageningen • Visum Mundi, Wildlife Film Festival</h3>
 
   <ul class="viewings">
     <li class="viewing">
@@ -464,12 +445,35 @@
   <li>Theater Peeriscoop • Gorinchem</li>
 </ul>
 
+<h2>Verleden vertoningen</h2>
+
+<p>De volgende vertoningen zijn al geweest.</p>
+
+<div class="cinema">
+  <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
+
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 5 november 2024 19:30</span>
+      </div>
+    </li>
+  
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">do 7 november 2024 13:00</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
 <style>
   .cinema:first-of-type {
     margin-top: 3rem;
   }
 
-  .cinema > h2 {
+  .cinema > h3 {
     margin-bottom: 2rem;
   }
 
