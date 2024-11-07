@@ -446,9 +446,22 @@
   </ul>
 </div>
 
+<div class="cinema">
+  <h3>Zevenbergen • Filmhuis Cine7 (Theater De Schuur)</h3>
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 8 december 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://cultuurmoerdijk.nl/agenda/cine7-special-de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+  </ul>
+</div>
+
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
-  <li>Filmhuis Cine7 • Zevenbergen</li>
   <li>Filmtheater Lingefilm • Geldermalsen</li>
   <li>Theater Peeriscoop • Gorinchem</li>
 </ul>
