@@ -49,7 +49,7 @@
         <span class="date">wo 13 november 2024 16:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -57,7 +57,7 @@
         <span class="date">wo 13 november 2024 18:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -65,7 +65,7 @@
         <span class="date">vr 15 november 2024 14:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
     <li class="viewing">
@@ -347,7 +347,7 @@
         <span class="date">di 26 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
       </div>
     </li>
   
