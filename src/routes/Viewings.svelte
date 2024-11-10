@@ -88,7 +88,7 @@
         <span class="date">zo 10 november 2024 17:15</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -275,7 +275,7 @@
         <span class="date">do 14 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
       </div>
     </li>
   
@@ -338,7 +338,7 @@
         <span class="date">zo 24 november 2024 12:00</span>
       </div>
       <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
+        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
       </div>
     </li>
 
