@@ -380,14 +380,6 @@
 <div class="cinema">
   <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
   <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 8 november 2024 20:30</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
   </ul>
 </div>
 
@@ -483,6 +475,12 @@
     <li class="viewing">
       <div class="date-and-location">
         <span class="date">do 7 november 2024 13:00</span>
+      </div>
+    </li>
+
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">vr 8 november 2024 20:30</span>
       </div>
     </li>
   </ul>
