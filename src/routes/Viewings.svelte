@@ -33,7 +33,7 @@
         <span class="date">wo 13 november 2024 13:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -85,18 +85,10 @@
   <ul class="viewings">
     <li class="viewing">
       <div class="date-and-location">
-        <span class="date">zo 10 november 2024 17:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
         <span class="date">ma 11 november 2024 13:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -104,7 +96,7 @@
         <span class="date">ma 11 november 2024 19:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Laatste kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Laatste kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -112,7 +104,7 @@
         <span class="date">ma 11 november 2024 20:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Bestel kaarten</Button>
       </div>
     </li>
     <li class="viewing">
@@ -128,7 +120,7 @@
         <span class="date">di 12 november 2024 13:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_">Bestel kaarten</Button>
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
       </div>
     </li>
   </ul>
@@ -347,7 +339,7 @@
         <span class="date">di 26 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
   
@@ -374,12 +366,6 @@
         <Button fixedWidth noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
       </div>
     </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
-  <ul class="viewings">
   </ul>
 </div>
 
@@ -432,7 +418,7 @@
         <span class="date">za 16 november 2024 11:30</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Bestel kaarten</Button>
+        <Button fixedWidth noMargin contrast click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Laatste kaarten</Button>
       </div>
     </li>
   </ul>
@@ -461,6 +447,18 @@
 <h2>Verleden vertoningen</h2>
 
 <p>De volgende vertoningen zijn al geweest.</p>
+
+<div class="cinema">
+  <h3>Almkerk • Service Bioscoop Holywoud</h3>
+
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 10 november 2024 17:15</span>
+      </div>
+    </li>
+  </ul>
+</div>
 
 <div class="cinema">
   <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
