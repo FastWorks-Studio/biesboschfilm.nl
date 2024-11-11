@@ -1,5 +1,43 @@
 <script lang="ts">
   import Button from "../components/Button.svelte";
+  import cinemas from "../shared/viewings";
+
+  const dateFormatOptions = {
+    weekday: 'short', // "di" for "Dinsdag"
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false // 24-hour format
+  };
+
+  const now = new Date();
+
+  // Separate future and past viewings
+  const futureCinemas = cinemas.map(cinema => ({
+    ...cinema,
+    viewings: cinema.viewings
+      .map(viewing => {
+        if (!(viewing.datetime instanceof Date)) {
+          viewing.datetime = new Date(viewing.datetime);
+        }
+        return viewing;
+      })
+      .filter(viewing => viewing.datetime > now)
+  })).filter(cinema => cinema.viewings.length > 0);
+
+  const pastCinemas = cinemas.map(cinema => ({
+    ...cinema,
+    viewings: cinema.viewings
+      .map(viewing => {
+        if (!(viewing.datetime instanceof Date)) {
+          viewing.datetime = new Date(viewing.datetime);
+        }
+        return viewing;
+      })
+      .filter(viewing => viewing.datetime <= now)
+  })).filter(cinema => cinema.viewings.length > 0);
 </script>
 
 <h1>Vertoningen</h1>
@@ -10,675 +48,38 @@
 
 <div class="cinema-list">
   <p>Snel naar een bioscoop:</p>
-  <a href="#alblasserdam">Alblasserdam • Landvast</a> |
-  <a href="#almkerk">Almkerk • Service Bioscoop Hollywoud</a> |
-  <a href="#arnhem">Arnhem • Focus</a> |
-  <a href="#breda">Breda • Chassé Theater</a> |
-  <a href="#cuijk">Cuijk • Service Bioscoop INDUSTRY</a> |
-  <a href="#denhaag">Den Haag • Museon-Omniversum</a> |
-  <a href="#dordrecht">Dordrecht • De Witt</a> |
-  <a href="#drachten">Drachten • De Bios</a> |
-  <a href="#nijmegen">Nijmegen • LUX</a> |
-  <a href="#tilburg">Tilburg • Cinecitta</a> |
-  <a href="#utrecht">Utrecht • Slachtstraat</a> |
-  <a href="#wageningen">Wageningen • Visum Mundi, Wildlife Film Festival</a> |
-  <a href="#zevenbergen">Zevenbergen • Filmhuis Cine7 (Theater De Schuur)</a>
+  {#each futureCinemas as cinema, index}
+    <a href="#{cinema.id}">{cinema.location} • {cinema.name}</a>
+    {#if index < (futureCinemas.length-1)} |&nbsp;{/if}
+  {/each}
 </div>
 
-<div class="cinema">
-  <h3 id="alblasserdam">Alblasserdam • Landvast</h3>
+{#each futureCinemas as cinema}
+  <div class="cinema">
+    <h3 id="{cinema.id}">{cinema.location} • {cinema.name}</h3>
 
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 12 november 2024 16:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 12 november 2024 18:45</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 13:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 16:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 18:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 15:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 18:45</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 15 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 16 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 17 november 2024 15:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 17 november 2024 18:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 12:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 15:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 19 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 20 november 2024 13:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="almkerk">Almkerk • Service Bioscoop Hollywoud</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 11 november 2024 19:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Laatste kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 11 november 2024 20:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 11 november 2024 20:30</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 12 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 19 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="arnhem">Arnhem • Focus</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 30 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.focusarnhem.nl/agenda/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="breda">Breda • Chassé Theater</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 13 november 2024 21:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9836/bas-kakes/de-biesbosch-natuur-in-beweging-q-a-regisseur-hoofdpersoon">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 17 november 2024 14:30</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 19 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Laatste kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 21 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 24 november 2024 10:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="cuijk">Cuijk • Service Bioscoop INDUSTRY</h3>
-  
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 18:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 20:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 15 november 2024 15:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 17 november 2024 13:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 11 december 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 18 december 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="denhaag">Den Haag • Museon-Omniversum</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 24 november 2024 11:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="dordrecht">Dordrecht • De Witt</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 12 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 15 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Laatste kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 16 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 19 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 20 november 2024 16:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 21 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 22 november 2024 14:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 24 november 2024 12:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 26 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 27 november 2024 16:15</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="drachten">Drachten • De Bios</h3>
-  
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 14 november 2024 20:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 15 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 16 november 2024 10:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 17 november 2024 10:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 18 november 2024 19:45</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-    
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 19 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 20 november 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="nijmegen">Nijmegen • LUX</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 15 december 2024 11:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://www.lux-nijmegen.nl/programma/film-gesprek-de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="tilburg">Tilburg • Cinecitta</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 12 december 2024 19:15</span>
-        <span class="location">Cinecitta Tilburg</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cinecitta.nl/movies/de-biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="utrecht">Utrecht • Slachtstraat</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 26 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 26 november 2024 21:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 30 november 2024 12:00</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">wo 4 december 2024 14:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://slachtstraat.nl/films/biesbosch-natuur-in-beweging/">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="wageningen">Wageningen • Visum Mundi, Wildlife Film Festival</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 15 november 2024 19:00</span>
-      </div>
-      <div class="buy">
-        <div class="not-available sold-out">Uitverkocht</div>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">za 16 november 2024 11:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Laatste kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3 id="zevenbergen">Zevenbergen • Filmhuis Cine7 (Theater De Schuur)</h3>
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 8 december 2024 13:30</span>
-      </div>
-      <div class="buy">
-        <Button fixedWidth noMargin primary click="https://cultuurmoerdijk.nl/agenda/cine7-special-de-biesbosch-natuur-in-beweging">Bestel kaarten</Button>
-      </div>
-    </li>
-  </ul>
-</div>
+    <ul class="viewings">
+      {#each cinema.viewings as viewing}
+        <li class="viewing">
+          <div class="date-and-location">
+            <span class="date">{Intl.DateTimeFormat('nl-NL', dateFormatOptions).format(viewing.datetime)}</span>
+          </div>
+          <div class="buy">
+            {#if viewing.type === 'Available'}
+              <Button fixedWidth noMargin primary click="{viewing.url}">Bestel kaarten</Button>
+            {:else if viewing.type === 'LastTickets'}
+              <Button fixedWidth noMargin contrast click="{viewing.url}">Laatste kaarten</Button>
+            {:else if viewing.type === 'SoldOut'}
+              <div class="not-available sold-out">Uitverkocht</div>
+            {:else if viewing.type === 'NotYetAvailable'}
+              <div class="not-available">Nog niet beschikbaar</div>
+            {/if}
+          </div>
+        </li>
+      {/each}
+    </ul>
+  </div>
+{/each}
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
@@ -686,51 +87,27 @@
   <li>Geldermalsen • Filmtheater Lingefilm</li>
 </ul>
 
+{#if pastCinemas.length > 0}
 <h2>Verleden vertoningen</h2>
 
 <p>De volgende vertoningen zijn al geweest.</p>
 
-<div class="cinema">
-  <h3>Almkerk • Service Bioscoop Holywoud</h3>
+{#each pastCinemas as cinema}
+  <div class="cinema">
+    <h3>{cinema.location} • {cinema.name}</h3>
 
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">zo 10 november 2024 17:15</span>
-      </div>
-    </li>
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">ma 11 november 2024 13:30</span>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<div class="cinema">
-  <h3>Rotterdam • Cinerama Rotterdam, Wildlife Film Festival Rotterdam</h3>
-
-  <ul class="viewings">
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">di 5 november 2024 19:30</span>
-      </div>
-    </li>
-  
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">do 7 november 2024 13:00</span>
-      </div>
-    </li>
-
-    <li class="viewing">
-      <div class="date-and-location">
-        <span class="date">vr 8 november 2024 20:30</span>
-      </div>
-    </li>
-  </ul>
-</div>
-
+    <ul class="viewings">
+      {#each cinema.viewings as viewing}
+        <li class="viewing">
+          <div class="date-and-location">
+            <span class="date">{Intl.DateTimeFormat('nl-NL', dateFormatOptions).format(viewing.datetime)}</span>
+          </div>
+        </li>
+      {/each}
+    </ul>
+  </div>
+{/each}
+{/if}
 
 <style>
   .cinema:first-of-type {

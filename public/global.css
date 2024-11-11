@@ -26,6 +26,10 @@
 	padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
