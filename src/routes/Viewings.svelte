@@ -195,6 +195,30 @@
         <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
       </div>
     </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">do 14 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">ma 18 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 19 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier">Bestel kaarten</Button>
+      </div>
+    </li>
   </ul>
 </div>
 
