@@ -544,7 +544,7 @@
         <span class="date">vr 15 november 2024 19:00</span>
       </div>
       <div class="buy">
-        <Button fixedWidth noMargin contrast click="https://www.visummundi.nl/movies/2635/17/de_biesbosch">Laatste kaarten</Button>
+        <div class="not-available sold-out">Uitverkocht</div>
       </div>
     </li>
   
