@@ -17,6 +17,7 @@
   <a href="#cuijk">Cuijk • Service Bioscoop INDUSTRY</a> |
   <a href="#denhaag">Den Haag • Museon-Omniversum</a> |
   <a href="#dordrecht">Dordrecht • De Witt</a> |
+  <a href="#drachten">Drachten • De Bios</a> |
   <a href="#nijmegen">Nijmegen • LUX</a> |
   <a href="#tilburg">Tilburg • Cinecitta</a> |
   <a href="#utrecht">Utrecht • Slachtstraat</a> |
@@ -487,6 +488,88 @@
 </div>
 
 <div class="cinema">
+  <h3 id="drachten">Drachten • De Bios</h3>
+  
+  <ul class="viewings">
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">do 14 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">do 14 november 2024 20:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">vr 15 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">za 16 november 2024 10:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">zo 17 november 2024 10:00</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">ma 18 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">ma 18 november 2024 19:45</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+    
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">di 19 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+
+    <li class="viewing">
+      <div class="date-and-location">
+        <span class="date">wo 20 november 2024 13:30</span>
+      </div>
+      <div class="buy">
+        <Button fixedWidth noMargin primary click="https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging">Bestel kaarten</Button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="cinema">
   <h3 id="nijmegen">Nijmegen • LUX</h3>
 
   <ul class="viewings">
@@ -600,7 +683,6 @@
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
   <li>Vue: Alkmaar, Apeldoorn, Amersfoort, Den Bosch, Doetinchem, Eindhoven, Enschede, Gorinchem, Kerkrade, Nijmegen, Vlaardingen</li>
-  <li>Drachten • De Bios</li>
   <li>Geldermalsen • Filmtheater Lingefilm</li>
 </ul>
 
