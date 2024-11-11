@@ -96,7 +96,7 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.2;
     z-index: -10;
     filter: blur(0.5rem);
   }
