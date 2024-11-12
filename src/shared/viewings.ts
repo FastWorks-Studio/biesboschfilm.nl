@@ -580,7 +580,27 @@ const cinemas: Cinema[] = [
     id: 'gorinchem-vue',
     viewings: [
       {
-        datetime: new Date('2024-12-12T23:00'),
+        datetime: new Date('2024-11-15T16:00'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-17T12:00'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-18T16:10'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-19T14:20'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-20T18:40'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
