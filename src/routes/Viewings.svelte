@@ -83,7 +83,6 @@
 
 <p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
 <ul>
-  <li>Vue: Alkmaar, Apeldoorn, Amersfoort, Den Bosch, Doetinchem, Eindhoven, Enschede, Gorinchem, Kerkrade, Nijmegen, Vlaardingen</li>
   <li>Geldermalsen • Filmtheater Lingefilm</li>
 </ul>
 
