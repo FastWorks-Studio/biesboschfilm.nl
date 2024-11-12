@@ -673,6 +673,33 @@ const cinemas: Cinema[] = [
     ],
   },
   {
+    location: 'Ouddorp',
+    name: 'PiXlife',
+    id: 'ouddorp-pixlife',
+    viewings: [
+      {
+        datetime: new Date('2024-12-04T14:00'),
+        url: '',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-12-15T14:00'),
+        url: '',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2025-01-12T14:00'),
+        url: '',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2025-02-09T14:00'),
+        url: '',
+        type: ViewingType.NotYetAvailable,
+      },
+    ],
+  },
+  {
     location: 'Rotterdam',
     name: 'Cinerama Rotterdam, Wildlife Film Festival Rotterdam',
     id: 'rotterdam-cinerama-wffr',
