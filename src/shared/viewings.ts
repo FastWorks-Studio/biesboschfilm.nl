@@ -679,23 +679,23 @@ const cinemas: Cinema[] = [
     viewings: [
       {
         datetime: new Date('2024-12-04T14:00'),
-        url: '',
-        type: ViewingType.NotYetAvailable,
+        url: 'https://pixlife.nl/films-lezingen/?start_date=12-11-2024&end_date=31-12-2025&product_id=247&product_date=04-12-2024',
+        type: ViewingType.Available,
       },
       {
         datetime: new Date('2024-12-15T14:00'),
-        url: '',
-        type: ViewingType.NotYetAvailable,
+        url: 'https://pixlife.nl/films-lezingen/?start_date=12-11-2024&end_date=31-12-2025&product_id=247&product_date=15-12-2024',
+        type: ViewingType.Available,
       },
       {
         datetime: new Date('2025-01-12T14:00'),
-        url: '',
-        type: ViewingType.NotYetAvailable,
+        url: 'https://pixlife.nl/films-lezingen/?start_date=12-11-2024&end_date=31-12-2025&product_id=247&product_date=12-01-2025',
+        type: ViewingType.Available,
       },
       {
         datetime: new Date('2025-02-09T14:00'),
-        url: '',
-        type: ViewingType.NotYetAvailable,
+        url: 'https://pixlife.nl/films-lezingen/?start_date=12-11-2024&end_date=31-12-2025&product_id=247&product_date=09-02-2025',
+        type: ViewingType.Available,
       },
     ],
   },
