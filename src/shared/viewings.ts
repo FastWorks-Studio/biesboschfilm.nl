@@ -454,7 +454,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-22T14:00'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
-        type: ViewingType.Available,
+        type: ViewingType.LastTickets,
       },
       {
         datetime: new Date('2024-11-24T12:00'),
