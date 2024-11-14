@@ -92,7 +92,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-17T15:00'),
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
-        type: ViewingType.Available,
+        type: ViewingType.LastTickets,
       },
       {
         datetime: new Date('2024-11-17T18:00'),
@@ -334,6 +334,11 @@ const cinemas: Cinema[] = [
         type: ViewingType.Available,
       },
       {
+        datetime: new Date('2024-11-27T13:30'),
+        url: 'https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
         datetime: new Date('2024-12-11T13:30'),
         url: 'https://cuijk.industrybioscoop.nl/movies/1556/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
@@ -429,7 +434,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-15T14:00'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
-        type: ViewingType.LastTickets,
+        type: ViewingType.SoldOut,
       },
       {
         datetime: new Date('2024-11-16T14:00'),
@@ -459,7 +464,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-24T12:00'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
-        type: ViewingType.Available,
+        type: ViewingType.LastTickets,
       },
       {
         datetime: new Date('2024-11-26T19:00'),
