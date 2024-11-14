@@ -809,6 +809,11 @@ const cinemas: Cinema[] = [
         url: 'https://cultuurmoerdijk.nl/agenda/cine7-special-de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-08T16:00'),
+        url: 'https://cultuurmoerdijk.nl/agenda/cine7-special-de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
 ];

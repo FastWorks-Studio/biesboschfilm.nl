@@ -27,6 +27,16 @@
       .filter(viewing => viewing.datetime > now)
   })).filter(cinema => cinema.viewings.length > 0);
 
+  const seenLocations = new Set();
+  const futureCinemaLocations = futureCinemas.filter(cinema => {
+    if (seenLocations.has(cinema.location)) {
+      return false;
+    } else {
+      seenLocations.add(cinema.location);
+      return true;
+    }
+  });
+
   const pastCinemas = cinemas.map(cinema => ({
     ...cinema,
     viewings: cinema.viewings
@@ -48,9 +58,9 @@
 
 <div class="cinema-list">
   <p>Snel naar een bioscoop:</p>
-  {#each futureCinemas as cinema, index}
-    <a href="#{cinema.id}">{cinema.location} • {cinema.name}</a>
-    {#if index < (futureCinemas.length-1)} |&nbsp;{/if}
+  {#each futureCinemaLocations as cinema, index}
+    <a href="#{cinema.id}">{cinema.location}</a>
+    {#if index < (futureCinemaLocations.length-1)}|&nbsp;{/if}
   {/each}
 </div>
 
