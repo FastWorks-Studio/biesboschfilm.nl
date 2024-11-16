@@ -181,7 +181,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-17T15:15'),
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
-        type: ViewingType.Available,
+        type: ViewingType.LastTickets,
       },
       {
         datetime: new Date('2024-11-18T13:30'),
