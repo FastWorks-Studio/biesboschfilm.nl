@@ -476,6 +476,31 @@ const cinemas: Cinema[] = [
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-11-29T19:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-23T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-01T12:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-02T19:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-04T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -740,6 +765,33 @@ const cinemas: Cinema[] = [
         datetime: new Date('2024-11-08T20:30'),
         url: 'https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/',
         type: ViewingType.SoldOut,
+      },
+    ],
+  },
+  {
+    location: 'Sneek',
+    name: 'Cinesneek',
+    id: 'sneek-cinesneek',
+    viewings: [
+      {
+        datetime: new Date('2024-11-21T19:45'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-22T17:00'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-23T18:45'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-24T15:15'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
       },
     ],
   },
