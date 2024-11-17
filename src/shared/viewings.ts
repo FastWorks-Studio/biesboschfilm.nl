@@ -639,6 +639,23 @@ const cinemas: Cinema[] = [
     ],
   },
   {
+    location: 'Made',
+    name: 'De Bernardus',
+    id: 'made-de-bernardus',
+    viewings: [
+      {
+        datetime: new Date('2024-12-28T14:00'),
+        url: 'https://www.vvvbiesboschdrimmelen.nl/nl/agenda/4238785051/film-de-biesbosch-natuur-in-beweging-1',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-28T19:00'),
+        url: 'https://www.vvvbiesboschdrimmelen.nl/nl/agenda/4238785051/film-de-biesbosch-natuur-in-beweging-1',
+        type: ViewingType.Available,
+      },
+    ],
+  },
+  {
     location: 'Nijmegen',
     name: 'LUX',
     id: 'nijmegen-lux',
