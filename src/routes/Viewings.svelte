@@ -91,11 +91,6 @@
   </div>
 {/each}
 
-<p>Ook de volgende bioscopen zullen de film vertonen. De datums voor deze bioscopen volgen nog.</p>
-<ul>
-  <li>Geldermalsen • Filmtheater Lingefilm</li>
-</ul>
-
 {#if pastCinemas.length > 0}
 <h2>Verleden vertoningen</h2>
 
