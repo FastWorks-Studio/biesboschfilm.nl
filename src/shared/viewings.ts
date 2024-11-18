@@ -119,6 +119,61 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-11-21T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-21T15:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-21T18:45'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-22T15:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-23T15:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-23T18:45'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-25T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-26T15:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-27T10:45'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-27T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
+      {
+        datetime: new Date('2024-11-27T18:45'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.NotYetAvailable,
+      },
     ],
   },
   {
