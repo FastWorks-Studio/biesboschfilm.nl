@@ -117,7 +117,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-20T13:00'),
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
-        type: ViewingType.Available,
+        type: ViewingType.LastTickets,
       },
       {
         datetime: new Date('2024-11-21T13:00'),
@@ -910,11 +910,6 @@ const cinemas: Cinema[] = [
     viewings: [
       {
         datetime: new Date('2024-12-28T14:00'),
-        url: 'https://www.vvvbiesboschdrimmelen.nl/nl/agenda/4238785051/film-de-biesbosch-natuur-in-beweging-1',
-        type: ViewingType.Available,
-      },
-      {
-        datetime: new Date('2024-12-28T19:00'),
         url: 'https://www.vvvbiesboschdrimmelen.nl/nl/agenda/4238785051/film-de-biesbosch-natuur-in-beweging-1',
         type: ViewingType.Available,
       },
