@@ -230,17 +230,17 @@ const cinemas: Cinema[] = [
     viewings: [
       {
         datetime: new Date('2024-11-11T19:30'),
-        url: 'https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard',
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
       {
         datetime: new Date('2024-11-11T20:00'),
-        url: 'https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard',
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
       {
         datetime: new Date('2024-11-11T20:30'),
-        url: 'https://www.hollywoud.nl/movies/1469/17/de_biesbosch_natuur_in_beweging_-_hollywoud_boulevard',
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.SoldOut,
       },
       {
@@ -280,6 +280,46 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-11-19T19:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-23T15:15'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-23T18:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-24T16:30'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-24T19:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-25T17:15'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-26T19:15'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-27T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-11-27T19:15'),
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
