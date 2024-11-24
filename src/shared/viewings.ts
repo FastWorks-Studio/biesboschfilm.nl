@@ -694,7 +694,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-27T16:15'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
-        type: ViewingType.Available,
+        type: ViewingType.SoldOut,
       },
       {
         datetime: new Date('2024-11-29T19:00'),
@@ -718,6 +718,31 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-04T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-05T19:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-07T14:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-08T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T19:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-11T16:15'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
