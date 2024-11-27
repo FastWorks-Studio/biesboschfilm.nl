@@ -1242,6 +1242,33 @@ const cinemas: Cinema[] = [
     ],
   },
   {
+    location: 'Gouda',
+    name: 'Cinema',
+    id: 'gouda-cinema',
+    viewings: [
+      {
+        datetime: new Date('2024-12-05T13:00'),
+        url: 'https://www.cinemagouda.nl/film/cine-de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T15:00'),
+        url: 'https://www.cinemagouda.nl/film/cine-de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-13T13:00'),
+        url: 'https://www.cinemagouda.nl/film/cine-de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-17T13:00'),
+        url: 'https://www.cinemagouda.nl/film/cine-de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+    ],
+  },
+  {
     location: 'Kerkrade',
     name: 'Vue',
     id: 'kerkrade-vue',
