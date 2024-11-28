@@ -379,6 +379,26 @@ const cinemas: Cinema[] = [
         type: ViewingType.Available,
       },
       {
+        datetime: new Date('2024-12-02T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-02T13:15'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-03T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-03T13:15'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
         datetime: new Date('2024-12-03T19:15'),
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
