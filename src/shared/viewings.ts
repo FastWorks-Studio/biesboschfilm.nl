@@ -458,6 +458,56 @@ const cinemas: Cinema[] = [
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-05T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-05T13:15'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-06T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-06T18:15'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-07T14:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T12:45'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-10T12:45'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-10T17:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-11T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-11T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -547,6 +597,16 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-03T13:20'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T11:20'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-10T11:20'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
@@ -666,6 +726,16 @@ const cinemas: Cinema[] = [
         url: 'https://www.chasse.nl/nl/programma/9907/bas-kakes/prikkelarm-filmbezoek-de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-07T12:30'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T12:15'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -772,6 +842,11 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-11-29T13:00'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-05T13:20'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
@@ -1148,6 +1223,36 @@ const cinemas: Cinema[] = [
         url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-06T10:45'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-07T10:15'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-08T10:15'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T10:45'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-10T10:45'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-11T10:45'),
+        url: 'https://www.biosdrachten.nl/movies/2214/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1301,6 +1406,11 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-03T13:20'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-08T15:10'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
@@ -1579,6 +1689,11 @@ const cinemas: Cinema[] = [
         url: 'https://cinecitta.nl/movies/de-biesbosch-natuur-in-beweging/',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-22T14:00'),
+        url: 'https://cinecitta.nl/movies/de-biesbosch-natuur-in-beweging/',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1697,6 +1812,21 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-03T15:00'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-05T15:20'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-09T15:00'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-10T15:10'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
