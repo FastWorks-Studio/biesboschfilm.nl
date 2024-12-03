@@ -732,7 +732,7 @@ const cinemas: Cinema[] = [
         type: ViewingType.Available,
       },
       {
-        datetime: new Date('2024-12-09T12:15'),
+        datetime: new Date('2024-12-08T12:15'),
         url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
