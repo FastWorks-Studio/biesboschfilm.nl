@@ -1677,6 +1677,21 @@ const cinemas: Cinema[] = [
         url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-05T18:00'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-06T17:15'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-11T18:00'),
+        url: 'https://www.cinesneek.nl/movies/2879/17/de_biesbosch_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
