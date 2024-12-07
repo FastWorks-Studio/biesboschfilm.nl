@@ -1036,6 +1036,26 @@ const cinemas: Cinema[] = [
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-12T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-14T14:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-15T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-18T18:45'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1854,6 +1874,11 @@ const cinemas: Cinema[] = [
     viewings: [
       {
         datetime: new Date('2024-12-21T19:30'),
+        url: 'https://www.deleest.nl/programma/5335/regie-bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-22T12:00'),
         url: 'https://www.deleest.nl/programma/5335/regie-bas-kakes/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
