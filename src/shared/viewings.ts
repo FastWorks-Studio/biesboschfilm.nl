@@ -1504,6 +1504,11 @@ const cinemas: Cinema[] = [
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-15T12:50'),
+        url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
