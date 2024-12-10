@@ -932,6 +932,16 @@ const cinemas: Cinema[] = [
         url: 'https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-01-19T19:45'),
+        url: 'https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-26T19:45'),
+        url: 'https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
