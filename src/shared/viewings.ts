@@ -1940,6 +1940,11 @@ const cinemas: Cinema[] = [
         url: 'https://veghel.industrybioscoop.nl/movies/1611/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-18T13:30'),
+        url: 'https://veghel.industrybioscoop.nl/movies/1611/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
