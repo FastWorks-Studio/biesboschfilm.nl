@@ -948,6 +948,11 @@ const cinemas: Cinema[] = [
         type: ViewingType.Available,
       },
       {
+        datetime: new Date('2025-01-09T18:00'),
+        url: 'https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
         datetime: new Date('2025-01-19T19:45'),
         url: 'https://www.museon-omniversum.nl/film/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
@@ -1148,6 +1153,36 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-18T18:45'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-21T14:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-22T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-23T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-16T19:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-29T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-31T16:30'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
