@@ -841,6 +841,21 @@ const cinemas: Cinema[] = [
         url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-26T14:40'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-28T12:15'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-31T13:00'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
