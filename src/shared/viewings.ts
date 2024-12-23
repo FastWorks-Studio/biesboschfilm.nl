@@ -578,6 +578,21 @@ const cinemas: Cinema[] = [
         url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-27T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-29T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2024-12-31T16:00'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1525,6 +1540,23 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-11-18T13:00'),
         url: 'https://www.vuecinemas.nl/films/film/biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+    ],
+  },
+  {
+    location: 'Geldermalsen',
+    name: 'Lingefilm',
+    id: 'geldermalsen-lingefilm',
+    viewings: [
+      {
+        datetime: new Date('2025-01-17T20:30'),
+        url: 'https://www.lingefilm.nl/film/de-biesbosch-natuur-in-beweging/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-18T20:30'),
+        url: 'https://www.lingefilm.nl/film/de-biesbosch-natuur-in-beweging/',
         type: ViewingType.Available,
       },
     ],
