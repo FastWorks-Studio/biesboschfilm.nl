@@ -279,6 +279,11 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2024-12-28T16:30'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1755,7 +1760,7 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-12-28T14:00'),
         url: 'https://www.vvvbiesboschdrimmelen.nl/nl/agenda/4238785051/film-de-biesbosch-natuur-in-beweging-1',
-        type: ViewingType.Available,
+        type: ViewingType.SoldOut,
       },
     ],
   },
@@ -2085,6 +2090,18 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2024-12-18T13:30'),
         url: 'https://veghel.industrybioscoop.nl/movies/1611/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+    ],
+  },
+  {
+    location: 'Vinkeveen',
+    name: 'Spoorhuis',
+    id: 'vinkeveen-spoorhuis',
+    viewings: [
+      {
+        datetime: new Date('2025-01-26T15:00'),
+        url: 'https://www.eventbrite.nl/e/tickets-de-biesbosch-natuur-in-beweging-1121420311339',
         type: ViewingType.Available,
       },
     ],
