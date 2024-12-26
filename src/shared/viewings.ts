@@ -942,6 +942,18 @@ const cinemas: Cinema[] = [
   },
   {
     location: 'Den Bosch',
+    name: 'Verkadefabriek',
+    id: 'den-bosch-verkadefabriek',
+    viewings: [
+      {
+        datetime: new Date('2025-01-05T13:20'),
+        url: 'https://www.verkadefabriek.nl/agenda/biesbosch-natuur-in-beweging-150537',
+        type: ViewingType.Available,
+      }
+    ],
+  },
+  {
+    location: 'Den Bosch',
     name: 'Vue',
     id: 'den-bosch-vue',
     viewings: [
