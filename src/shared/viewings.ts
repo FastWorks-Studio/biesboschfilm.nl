@@ -284,6 +284,21 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-01-06T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-06T16:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-07T16:05'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1260,6 +1275,21 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-31T16:30'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-04T11:45'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-06T18:50'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-07T14:00'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
