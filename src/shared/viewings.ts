@@ -613,6 +613,31 @@ const cinemas: Cinema[] = [
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-01-02T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-04T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-05T16:45'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-06T13:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-07T13:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -888,6 +913,31 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2024-12-31T13:00'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-02T12:55'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-03T13:00'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-04T13:00'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-05T13:00'),
+        url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-08T11:30'),
         url: 'https://www.chasse.nl/nl/programma/9839/bas-kakes/de-biesbosch-natuur-in-beweging',
         type: ViewingType.Available,
       },
