@@ -299,6 +299,46 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-01-09T13:30'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-10T13:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-11T16:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-12T17:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-13T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-13T17:30'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-14T12:45'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-03T15:30'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1340,6 +1380,21 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2025-01-07T14:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-11T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-12T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-14T16:15'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
