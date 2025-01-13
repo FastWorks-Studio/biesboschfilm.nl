@@ -335,6 +335,21 @@ const cinemas: Cinema[] = [
         type: ViewingType.Available,
       },
       {
+        datetime: new Date('2025-01-17T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-20T13:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-21T16:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
         datetime: new Date('2025-02-03T15:30'),
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
