@@ -731,6 +731,23 @@ const cinemas: Cinema[] = [
     ],
   },
   {
+    location: 'Alphen aan de Rijn',
+    name: 'Parkvilla',
+    id: 'alphen-aan-de-rijn-parkvilla',
+    viewings: [
+      {
+        datetime: new Date('2025-01-19T13:00'),
+        url: 'https://www.parkvilla.nl/filmhuis/5758/De_Biesbosch_Natuur_in_beweging/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-24T20:30'),
+        url: 'https://www.parkvilla.nl/filmhuis/5758/De_Biesbosch_Natuur_in_beweging/',
+        type: ViewingType.Available,
+      },
+    ],
+  },
+  {
     location: 'Amersfoort',
     name: 'Vue',
     id: 'amersfoort-vue',
@@ -1485,6 +1502,16 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2025-01-21T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-25T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-26T12:15'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
