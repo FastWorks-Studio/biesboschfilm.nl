@@ -3,32 +3,34 @@
   import cinemas from "../shared/viewings";
 
   const dateFormatOptions = {
-    weekday: 'short', // "di" for "Dinsdag"
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false // 24-hour format
+    weekday: "short", // "di" for "Dinsdag"
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false, // 24-hour format
   };
 
   const now = new Date();
 
   // Separate future and past viewings
-  const futureCinemas = cinemas.map(cinema => ({
-    ...cinema,
-    viewings: cinema.viewings
-      .map(viewing => {
-        if (!(viewing.datetime instanceof Date)) {
-          viewing.datetime = new Date(viewing.datetime);
-        }
-        return viewing;
-      })
-      .filter(viewing => viewing.datetime > now)
-  })).filter(cinema => cinema.viewings.length > 0);
+  const futureCinemas = cinemas
+    .map((cinema) => ({
+      ...cinema,
+      viewings: cinema.viewings
+        .map((viewing) => {
+          if (!(viewing.datetime instanceof Date)) {
+            viewing.datetime = new Date(viewing.datetime);
+          }
+          return viewing;
+        })
+        .filter((viewing) => viewing.datetime > now),
+    }))
+    .filter((cinema) => cinema.viewings.length > 0);
 
   const seenLocations = new Set();
-  const futureCinemaLocations = futureCinemas.filter(cinema => {
+  const futureCinemaLocations = futureCinemas.filter((cinema) => {
     if (seenLocations.has(cinema.location)) {
       return false;
     } else {
@@ -37,22 +39,28 @@
     }
   });
 
-  const pastCinemas = cinemas.map(cinema => ({
-    ...cinema,
-    viewings: cinema.viewings
-      .map(viewing => {
-        if (!(viewing.datetime instanceof Date)) {
-          viewing.datetime = new Date(viewing.datetime);
-        }
-        return viewing;
-      })
-      .filter(viewing => viewing.datetime <= now)
-  })).filter(cinema => cinema.viewings.length > 0);
+  const pastCinemas = cinemas
+    .map((cinema) => ({
+      ...cinema,
+      viewings: cinema.viewings
+        .map((viewing) => {
+          if (!(viewing.datetime instanceof Date)) {
+            viewing.datetime = new Date(viewing.datetime);
+          }
+          return viewing;
+        })
+        .filter((viewing) => viewing.datetime <= now),
+    }))
+    .filter((cinema) => cinema.viewings.length > 0);
 </script>
 
 <h1>Vertoningen</h1>
 
-<p><em>De Biesbosch: Natuur in beweging</em> is nu te zien in verschillende bioscopen. De lijst met bioscopen en data zal nog verder groeien, dus houd onze site en socials in de gaten.</p>
+<p>
+  <em>De Biesbosch: Natuur in beweging</em> is nu te zien in verschillende bioscopen.
+  De lijst met bioscopen en data zal nog verder groeien, dus houd onze site en socials
+  in de gaten.
+</p>
 
 <p><strong>Wijzigingen voorbehouden</strong></p>
 
@@ -60,28 +68,36 @@
   <p>Snel naar een bioscoop:</p>
   {#each futureCinemaLocations as cinema, index}
     <a href="#{cinema.id}">{cinema.location}</a>
-    {#if index < (futureCinemaLocations.length-1)}|&nbsp;{/if}
+    {#if index < futureCinemaLocations.length - 1}|&nbsp;{/if}
   {/each}
 </div>
 
 {#each futureCinemas as cinema}
   <div class="cinema">
-    <h3 id="{cinema.id}">{cinema.location} • {cinema.name}</h3>
+    <h3 id={cinema.id}>{cinema.location} • {cinema.name}</h3>
 
     <ul class="viewings">
       {#each cinema.viewings as viewing}
         <li class="viewing">
           <div class="date-and-location">
-            <span class="date">{Intl.DateTimeFormat('nl-NL', dateFormatOptions).format(viewing.datetime)}</span>
+            <span class="date"
+              >{Intl.DateTimeFormat("nl-NL", dateFormatOptions).format(
+                viewing.datetime,
+              )}</span
+            >
           </div>
           <div class="buy">
-            {#if viewing.type === 'Available'}
-              <Button fixedWidth noMargin primary click="{viewing.url}">Bestel kaarten</Button>
-            {:else if viewing.type === 'LastTickets'}
-              <Button fixedWidth noMargin contrast click="{viewing.url}">Laatste kaarten</Button>
-            {:else if viewing.type === 'SoldOut'}
+            {#if viewing.type === "Available"}
+              <Button fixedWidth noMargin primary click={viewing.url}
+                >Bestel kaarten</Button
+              >
+            {:else if viewing.type === "LastTickets"}
+              <Button fixedWidth noMargin contrast click={viewing.url}
+                >Laatste kaarten</Button
+              >
+            {:else if viewing.type === "SoldOut"}
               <div class="not-available sold-out">Uitverkocht</div>
-            {:else if viewing.type === 'NotYetAvailable'}
+            {:else if viewing.type === "NotYetAvailable"}
               <div class="not-available">Nog niet beschikbaar</div>
             {/if}
           </div>
@@ -92,25 +108,29 @@
 {/each}
 
 {#if pastCinemas.length > 0}
-<h2>Verleden vertoningen</h2>
+  <h2>Verleden vertoningen</h2>
 
-<p>De volgende vertoningen zijn al geweest.</p>
+  <p>De volgende vertoningen zijn al geweest.</p>
 
-{#each pastCinemas as cinema}
-  <div class="cinema">
-    <h3>{cinema.location} • {cinema.name}</h3>
+  {#each pastCinemas as cinema}
+    <div class="cinema">
+      <h3>{cinema.location} • {cinema.name}</h3>
 
-    <ul class="viewings">
-      {#each cinema.viewings as viewing}
-        <li class="viewing">
-          <div class="date-and-location">
-            <span class="date">{Intl.DateTimeFormat('nl-NL', dateFormatOptions).format(viewing.datetime)}</span>
-          </div>
-        </li>
-      {/each}
-    </ul>
-  </div>
-{/each}
+      <ul class="viewings">
+        {#each cinema.viewings as viewing}
+          <li class="viewing">
+            <div class="date-and-location">
+              <span class="date"
+                >{Intl.DateTimeFormat("nl-NL", dateFormatOptions).format(
+                  viewing.datetime,
+                )}</span
+              >
+            </div>
+          </li>
+        {/each}
+      </ul>
+    </div>
+  {/each}
 {/if}
 
 <style>

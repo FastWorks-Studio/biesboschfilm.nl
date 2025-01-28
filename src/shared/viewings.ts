@@ -369,6 +369,16 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-02-03T18:00'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-04T15:15'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -756,6 +766,21 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2025-01-29T18:15'),
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-01-30T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-03T13:30'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-04T13:30'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
         type: ViewingType.Available,
       },
     ],
@@ -1545,6 +1570,16 @@ const cinemas: Cinema[] = [
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-02-01T16:10'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-02T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1997,6 +2032,18 @@ const cinemas: Cinema[] = [
         url: 'https://www.cinemagouda.nl/film/de-biesbosch-natuur-in-beweging-cine',
         type: ViewingType.Available,
       },
+    ],
+  },
+  {
+    location: 'Houten',
+    name: 'Aan de Slinger',
+    id: 'houten-aan-de-slinger',
+    viewings: [
+      {
+        datetime: new Date('2025-03-06T19:45'),
+        url: 'https://www.aandeslinger.nl/programma/de-biesbosch-natuur-in-beweging',
+        type: ViewingType.Available,
+      }
     ],
   },
   {
