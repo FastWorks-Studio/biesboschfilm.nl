@@ -798,6 +798,21 @@ const cinemas: Cinema[] = [
         url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-02-06T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-10T13:30'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-11T11:00'),
+        url: 'https://www.hollywoud.nl/movies/1481/17/de_biesbosch_natuur_in_beweging_-_50_bios_en_regulier',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -1592,6 +1607,21 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2025-02-02T12:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-08T15:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-09T15:00'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-02-11T19:30'),
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
