@@ -419,6 +419,11 @@ const cinemas: Cinema[] = [
         url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-02-28T19:10'),
+        url: 'https://www.landvast.nl/movies/2821/17/de_biesbosch_natuur_in_beweging',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -860,6 +865,11 @@ const cinemas: Cinema[] = [
       },
       {
         datetime: new Date('2025-02-20T13:15'),
+        url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-03-04T11:00'),
         url: 'https://www.hollywoud.nl/movies/1482/17/de_biesbosch_natuur_in_beweging_',
         type: ViewingType.Available,
       },
@@ -1745,6 +1755,26 @@ const cinemas: Cinema[] = [
         url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
         type: ViewingType.Available,
       },
+      {
+        datetime: new Date('2025-02-28T19:30'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-03-01T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-03-02T12:30'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-03-02T16:15'),
+        url: 'https://www.dewittdordrecht.nl/filmtheater/de-biesbosch/',
+        type: ViewingType.Available,
+      },
     ],
   },
   {
@@ -2362,6 +2392,11 @@ const cinemas: Cinema[] = [
       {
         datetime: new Date('2025-02-09T14:00'),
         url: 'https://pixlife.nl/films-lezingen/?start_date=12-11-2024&end_date=31-12-2025&product_id=247&product_date=09-02-2025',
+        type: ViewingType.Available,
+      },
+      {
+        datetime: new Date('2025-03-08T14:30'),
+        url: 'https://pixlife.nl/films-lezingen/?start_date=26-02-2025&end_date=31-12-2026&product_id=247&product_date=08-03-2025',
         type: ViewingType.Available,
       },
     ],
