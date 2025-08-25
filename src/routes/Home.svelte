@@ -121,15 +121,75 @@
   <h2>In de media</h2>
 
   <p>
-    <span class="date">4 november 2024</span>
-    RTV Dordrecht schrijft over onze besloten voorpremière.
-    <a target="_blank" rel="noreferrer noopener" href="https://www.rtvdordrecht.nl/nieuws/stad/de-biesbosch-in-al-haar-glorie-als-documentaire-op-het-witte-doek">Lees het hier.</a>
+    <span class="date">2 januari 2025</span>
+    DordtCentraal meldt dat de film de Kristallen Film-status behaalde na meer dan 10.000 bezoekers.
+    <a target="_blank" rel="noreferrer noopener" href="https://dordtcentraal.nl/cultuur/al-10-000-bezoekers-voor-biesbosch-documentaire/">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">31 december 2024</span>
+    RTV Dordrecht bericht over de uitreiking van de Kristallen Film in Filmtheater De Witt.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.rtvdordrecht.nl/nieuws/natuurfilm-over-de-biesbosch-verdient-kristallen-status-na-10000-bezoekers">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">30 december 2024</span>
+    Nederlands Film Festival kondigt Kristallen Film aan voor <em>De Biesbosch: Natuur in beweging</em>.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.filmfestival.nl/nieuws/kristal-voor-de-biesbosch-natuur-in-beweging">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">30 december 2024</span>
+    Dordrecht.net schrijft over de Kristallen prijs voor de documentaire.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.dordrecht.net/nieuws/111863/kristallen-prijs-voor-de-succesvolle-dordtse-documentaire-de-biesbosch-natuur-in-beweging">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">29 december 2024</span>
+    AD (Dordrecht/BD/ED-netwerk) meldt 10.000 bioscoopbezoekers en de onderscheiding.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.ad.nl/dordrecht/film-over-biesbosch-natuur-trekt-10-000-bioscoopbezoekers-onderscheiding-voor-makers~a6d4805f/">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">29 december 2024</span>
+    BiosAgenda bericht: Kristallen Film voor de documentaire.
+    <a target="_blank" rel="noreferrer noopener" href="https://biosagenda.nl/nieuws_kristallen-film-voor-docu-de-biesbosch_9798.html">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">22 november 2024</span>
+    Het Kontakt (Alblasserwaard) schrijft over de première op WFFR en de nominatie.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.hetkontakt.nl/alblasserwaard/nieuws/407084/de-biesbosch-natuur-in-beweging-brengt-uniek-natuurgebied-op-">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">12 november 2024</span>
+    Dordrecht.net: De Witt programmeert de film naast grote titels.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.dordrecht.net/nieuws/111079/dewitt-hollywood-vs-dordrecht-gladiator-ii-vs-biesbosch-stedenbanden">Lees het hier.</a>
   </p>
 
   <p>
     <span class="date">4 november 2024</span>
-    Dordrecht.net schrijft over onze besloten voorpremière.
-    <a target="_blank"rel="noreferrer noopener" href="https://www.dordrecht.net/nieuws/110898/sneaky-preview-van-de-documentaire-de-biesbosch-natuur-in-beweging-in-filmtheater-dewitt">Lees het hier.</a>
+    Dordrecht.net doet verslag van de besloten voorpremière.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.dordrecht.net/nieuws/110898/sneaky-preview-van-de-documentaire-de-biesbosch-natuur-in-beweging-in-filmtheater-dewitt">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">4 november 2024</span>
+    RTV Dordrecht schrijft over de besloten voorpremière.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.rtvdordrecht.nl/nieuws/stad/de-biesbosch-in-al-haar-glorie-als-documentaire-op-het-witte-doek">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">november 2024</span>
+    Wildlife Film Festival Rotterdam vermeldt onze nominatie voor Beste Onafhankelijke Productie.
+    <a target="_blank" rel="noreferrer noopener" href="https://wffr.nl/professionals/genomineerden/">Lees het hier.</a>
+  </p>
+
+  <p>
+    <span class="date">31 oktober 2024</span>
+    Het Kontakt (Altena) kondigt de première aan op WFFR.
+    <a target="_blank" rel="noreferrer noopener" href="https://www.hetkontakt.nl/altena/nieuws/404556/na-vijf-jaar-werken-is-het-zover-de-biesbosch-natuur-in-beweg">Lees het hier.</a>
   </p>
 
   <p>
