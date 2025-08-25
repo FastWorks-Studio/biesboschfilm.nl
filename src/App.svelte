@@ -43,7 +43,7 @@
 
       {#if page!=="/vertoningen" && page !=="/bronnen"}
       <div class="call-to-action">
-        <Button fluid={true} center={true} primary={true} click="vertoningen">Vertoningen</Button>
+        <Button fluid={true} center={true} primary={true} click="https://www.pathe-thuis.nl/film/36989/de-biesbosch-natuur-in-beweging">Kijk op Pathé Thuis</Button>
       </div>
       <div class="intro-buttons">
         <Button fluid={true} center={true} click="https://www.facebook.com/biesboschfilm">Like ons op Facebook</Button>
@@ -57,7 +57,7 @@
     {:else if page==="/vertoningen"}
         <Viewings />
     {:else}
-        <h2 id="in-cinemas-now">Nu in de bioscoop!</h2>
+        <h2 id="top-heading">Nu te streamen!</h2>
 
         <div class="video trailer">
           <iframe style="width:{width}px; height:{width*(9/16)}px;" src="https://www.youtube.com/embed/5kNowmTTiUM?si=nO8iVXg3t0QMH0tu" title="Trailer (on YouTube)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -125,7 +125,7 @@
     padding: 0;
   }
 
-  #in-cinemas-now {
+  #top-heading {
     font-size: 5rem;
     margin-top: -4rem;
     margin-bottom: 2rem;

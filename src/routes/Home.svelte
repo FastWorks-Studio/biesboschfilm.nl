@@ -28,6 +28,14 @@
   <p>De Biesbosch is een zoetwatergetijdengebied, dat is uniek op wereldschaal. Na honderden jaren gebruikt te zijn voor industriële doeleinden is het sinds 1994 een nationaal park geworden. Sindsdien is de natuur echt tot bloei gekomen. Als je in de Biesbosch bent voel je meteen de rust en ga je op in de natuur. Wij vinden dit een groot goed en laten mensen graag zien en voelen hoe mooi het is, zowel in de bioscoop als thuis.</p>
 
   <p>De film ging in première op 5 november 2024 op het <a target="_blank" href="https://wffr.nl/movies/de-biesbosch-natuur-in-beweging/">Wildlife Film Festival Rotterdam (WFFR)</a> in november 2024, en is <a target="_blank" href="https://wffr.nl/professionals-en/nominees-en/">daar genomineerd in de categorie beste onafhankelijke productie</a>.</p>
+
+  <em>De Biesbosch: Natuur in beweging</em> heeft tussen november 2024 en maart 2025 gedraaid in bioscopen door het hele land.
+
+  De film is nu te zien via <a href="https://www.pathe-thuis.nl/film/36989/de-biesbosch-natuur-in-beweging" target="_blank">Pathé Thuis</a>. We bieden Nederlandse en Engelse ondertiteling aan.
+
+  <div class="double-button-group">
+    <Button fluid={true} center={true} primary={false} click="vertoningen">Verleden vertoningen</Button>
+  </div>
 </div>
 
 <section class="waarom">
@@ -157,14 +165,6 @@
     Het AD schreef over onze film en crowdfunding,
     <a href="https://www.ad.nl/dordrecht/bas-start-crowdfunding-om-natuurdocu-over-biesbosch-af-te-kunnen-maken-grootse-natuur-in-een-klein-land~a1e15a649/" target="_blank">klik hier om het terug te lezen</a>.
   </p>
-</section>
-
-<section>
-  <h2>Wanneer zal de film te zien zijn?</h2>
-
-  <p>Iedereen die wel eens iets met fotografie heeft gedaan zal het weten: dieren zijn niet voorspelbaar. Ook de licht- en weersomstandigheden willen nog wel eens variëren. Daarom is het niet alleen moeilijk, maar vinden we het ook zonde om een harde deadline te stellen.</p>
-
-  <p>We zijn al vier jaar bezig met filmen, dus we zijn al een eind op weg. We mikken op eind 2024.</p>
 </section>
 
 <figure class="photo">

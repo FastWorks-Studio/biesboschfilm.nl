@@ -57,9 +57,9 @@
 <h1>Vertoningen</h1>
 
 <p>
-  <em>De Biesbosch: Natuur in beweging</em> is nu te zien in verschillende bioscopen.
-  De lijst met bioscopen en data zal nog verder groeien, dus houd onze site en socials
-  in de gaten.
+  <em>De Biesbosch: Natuur in beweging</em> heeft tussen november 2024 en maart 2025 gedraaid in bioscopen door het hele land. Dit waren de voorstellingen.
+
+  De film is nu te zien via <a href="https://www.pathe-thuis.nl/film/36989/de-biesbosch-natuur-in-beweging" target="_blank">Pathé Thuis</a>.
 </p>
 
 <p><strong>Wijzigingen voorbehouden</strong></p>
